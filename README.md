@@ -7,8 +7,7 @@ This purpose of this project was to improve the referral decision process by cre
 - API using a Django webframe work to display the EHR
 
 After downloading, to look at the example EHR login with these credentials:
-username: test
-password: password1234
+username: test, password: password1234
 
 
 To use, must install:
