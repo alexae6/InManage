@@ -1,0 +1,235 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Bootstrap 5 Admin &amp; Dashboard Template">
+	<meta name="author" content="Bootlab">
+
+	<title>InManage - Inpatient Rehabilitation Management</title>
+
+	<link rel="canonical" href="https://appstack.bootlab.io/dashboard-default.html" />
+	<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+	<!-- Choose your prefered color scheme -->
+	<link href="{% static 'css/light.css' %}" rel="stylesheet">
+	<!-- <link href="css/dark.css" rel="stylesheet"> -->
+
+</head>
+
+<body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
+	<div class="wrapper">
+	{% include 'navbar.html' %}
+		<div class="main">
+			{% include 'header.html' %}
+			<main class="content">
+				<div class="container-fluid p-0">
+
+					<div class="row mb-2 mb-xl-3">
+						<div class="col-auto d-none d-sm-block">
+							<h3>Main Dashboard</h3>
+						</div>
+
+						<div class="col-auto ms-auto text-end mt-n1">
+
+							<button class="btn btn-primary shadow-sm">
+							  <i class="align-middle" data-feather="filter">&nbsp;</i>
+							</button>
+													<button class="btn btn-primary shadow-sm">
+							  <i class="align-middle" data-feather="refresh-cw">&nbsp;</i>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-sm-6 col-xxl-3 d-flex">
+							<div class="card illustration flex-fill">
+								<div class="card-body p-0 d-flex flex-fill">
+									<div class="row g-0 w-100">
+										<div class="col-6">
+											<div class="illustration-text p-3 m-1">
+												<h4 class="illustration-text">Welcome Back!</h4>
+												<p class="mb-0">Admissions Manager</p>
+											</div>
+										</div>
+										<div class="col-6 align-self-end text-end">
+											<img src="{% static 'img/illustrations/customer-support.png' %}" alt="Customer Support" class="img-fluid illustration-img">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-xxl-3 d-flex">
+							<div class="card flex-fill">
+								<div class="card-body py-4">
+									<div class="d-flex align-items-center">
+										<div class="flex-grow-1">
+											<h3 class="mb-2">Number of Beds Occupied</h3>
+											<div class="row">
+												<div class="d-flex align-items-center">
+													<span class="h1 d-inline-block mt-1 mb-4 margin:auto">{{accepted}}/40</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="col-12 col-sm-6 col-xxl-3 d-flex">
+							<div class="card flex-fill">
+								<div class="card-body py-4">
+									<div class="d-flex align-items-start">
+										<div class="flex-grow-1">
+											<h3 class="mb-2">CMS 60% Rule Requirement</h3>
+											<p class="mb-2">Number of Patients meeting criteria</p>
+											<span class="h1 d-inline-block mt-1 mb-4">{{cms_percent}}%</span>
+										</div>
+										<div class="d-inline-block ms-3">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-xxl-3 d-flex">
+							<div class="card">
+								<div class="card-header">
+									<div class="d-flex align-items-start">
+										<h3 class="mb-2">Patient Status Breakdown</h3>
+									</div>
+								<div class="card-body text-center">
+									<div class="chart-m">
+										<div id="statusPIE" style="max-width: 440px;margin:auto;"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+
+					<div class="card flex-fill">
+						<div class="card-header">
+							<div class="card-actions float-end">
+								<div class="dropdown position-relative">
+									<a href="#" data-bs-toggle="dropdown" data-bs-display="static">
+          <i class="align-middle" data-feather="more-horizontal"></i>
+        </a>
+
+				
+								</div>
+							</div>
+							<h5 class="card-title mb-0">Patient Summary</h5>
+						</div>
+						<table id="datatables-dashboard-projects" class="table table-striped my-0">
+							<thead>
+								<tr>
+									<th>Patient Name</th>
+									<th class="d-none d-xl-table-cell">Diagnosis</th>
+									<th class="d-none d-xl-table-cell">Referral Date</th>
+									<th class = "d-none d-md-table-cell">Status</th>
+									<th class="d-none d-md-table-cell">Assignee</th>
+								</tr>
+							</thead>
+							<tbody>
+								{% for entry in patients %}
+								<tr>	
+									<td><a href="{% url 'base:patientinfo' entry.patientname %}">{{entry.patientname}}</a></td>
+									<td class="d-none d-xl-table-cell">{{entry.Diagnosis}}</td>
+									<td class="d-none d-xl-table-cell">{{entry.ReferralDate}}</td>
+									<td><span class="d-none d-md-table-cell">{{entry.Status}}</span></td>
+									<td class="d-none d-md-table-cell">{{entry.Assignee}}</td>
+								</tr>
+								{%endfor%}
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</main>
+			{% include 'footer.html' %}
+		</div>
+	</div>
+
+	<script src="{% static 'js/app.js' %}"></script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			$("#datetimepicker-dashboard").datetimepicker({
+				inline: true,
+				sideBySide: false,
+				format: "L"
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+		// Pie chart
+		var options = {
+		chart: {
+		height: 350,
+		type: "pie",
+		},
+		dataLabels: {
+		enabled: false
+		},
+		Style: {
+		
+		},
+		labels: ["Accepted","Rejected","Pending"],
+		colors: ["#32CD32","#FF0000","#FFA500"],
+		series: [{{accepted}},{{rejected}},{{pending}}]
+		}
+		var chart = new ApexCharts(
+		document.querySelector("#statusPIE"),
+		options
+		);
+		chart.render();
+		});
+		</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Doughnut chart
+			new Chart(document.getElementById("chartjs-doughnut"), {
+				type: "doughnut",
+				data: {
+					labels: ["Social", "Search Engines", "Direct", "Other"],
+					datasets: [{
+						data: [260, 125, 54, 146],
+						backgroundColor: [
+							window.theme.primary,
+							window.theme.success,
+							window.theme.warning,
+							"#E8EAED"
+						],
+						borderColor: "transparent"
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					cutoutPercentage: 65,
+					legend: {
+						display: false
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			$("#datatables-dashboard-projects").DataTable({
+				pageLength: 6,
+				lengthChange: false,
+				bFilter: false,
+				autoWidth: false
+			});
+		});
+	</script>
+
+</body>
+
+</html>

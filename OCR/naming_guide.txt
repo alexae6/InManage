@@ -1,0 +1,104 @@
+Naming Guide:
+#Patient Info:
+patientname
+age
+dob
+sex
+address1
+address2            
+workphone
+city
+st
+zip
+country
+county
+homephone
+#Insurance Info:
+PrimaryInsurance
+InsuranceName1
+ID1
+GP1
+EFF1
+EXP1
+SecondaryInsurance
+InsuranceName2
+ID2
+GP2
+EFF2
+EXP2
+TertiaryInsurance
+InsuranceName3
+ID3
+GP3
+EFF3
+EXP3
+
+#Referring MD:
+ReferringMD
+Phone
+Fax
+
+#Nearest Relative Info:
+NearestRelativeName
+NearestRelativeRelation
+NearestRelativeAddress
+NearestRelativeHomePhone
+NearestRelativeCity
+NearestRelativeST
+NearestRelativeZip
+NearestRelativeWorkPhone
+NearestRelativeWorkPhoneExt
+
+#HNP
+History of Present Illness
+Past Medical History
+Orientation
+Concentration
+Memory
+Language
+Muskuloskeletal
+Impression and Plan
+
+#PT
+Impairments
+Treating Diagnosis	
+Rehab Potential	
+Assessment/Rationale	
+Disposition Recommendations	
+Frequency	
+Duration	
+Duration Unit	
+Therapeutic Procedures Interventions Planned	
+Pt/Caregiver Involved in Goal Setting & Tx Plan	
+#History
+Medical Diagnosis	
+Onset Date	
+Patient Precautions	
+#Weight Bearing
+Left UE	
+Right UE	
+Left LE	
+Right LE	
+#Prior Level of Function
+Tranfers	
+Bed Mobility	
+ADL's	
+Ambulation	A
+#Sensory Systems
+Auditory	
+Vision	
+Subjective Information	
+
+Living Situation 1	
+
+Cognition Level of COnsciousness	
+Cognition Orientation	
+
+#Mobility
+Supine to Sit	
+Sit to Stand	
+Stand to Sit	
+Bed to Chair	
+Gait Assessment Comments
+
+

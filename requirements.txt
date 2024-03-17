@@ -1,0 +1,14 @@
+pdfminer
+sys
+getopt
+platform
+tempfile
+pathlib
+pytesseract
+pdf2image
+PIL
+time
+re
+csv
+os
+ast

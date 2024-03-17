@@ -1,0 +1,2242 @@
+==== Indiana University Healths=s======s===
+Creation Date/Time: 12/16/15 09:56
+Registration Created By: ROBERTSL
+Facility: IUH ARNETT HOSPITAL
+
+Patient Name: ELSTON, KYLE R
+Previous Name:
+
+|
+|
+Clinic: CA5 | MRN: 73207092 Acct #: 420153496 Patient Type: INPATIENT
+Arrive Date/Time: 12/12/2015 15:47 | SSN: XXX-XX-8923 FC: Managed Care
+Nurse Station: CA5 | Age: 35 Years Sex: M DNA}
+Room: A520 Bed: P | DOB: 11/13/1980 Race: WHITE
+Accommodation: PRIVATE, HOSPITAL CONVENIENCE | Language: English Interpreter Req:
+Admit Source: ROUTINE ADMIT OR OP SERVICE | Expected Arrival Date/Time: Reg Date/Time: 12/12/2015 11:39
+Admit Priority: EMERGENCY | Hosp Srvc: NEUROSURGERY ~ A ISOL: CONTACT
+Admit Procedure: ROUTINE ADMIT OR OP SERVICE |
+eaenna-s.=----= DOCTOR INFORMATION -<------ Seen mem een eee nen en neem enn nen anna eens eee estes ene nnn aneeeeeennnnnae a cei i ne ean cc
+Admitting MD: JACKSON, GARRETT J, MD Phone: (765) 448-7981 Fax: (765) 447-4172
+Address: Goodman Campbell Brain & Spine 3750 Landmark Sr Ste B Lafayette IN 47905
+Attending MD: GEHRING, RANDY L, MD Phone: (765) 448-7981 Fax: (765) 447-4172
+Address: Goodman Campbell Brain and Spine 3750 Landmark Drive Ste B Lafayette IN 47905
+Primary Care MD: ADAMS, JOHN G, MD Phone: (765) 463-2424 Fax: (765) 463-2218
+Address: Franciscan Physician Network Family Medicine 915 Sagamore Parkway West 915 Sagamore Parkway West West Lafayette IN 47906
+Referring MD: SELF, REFERRAL Phone: Fax:
+Address: NOT AVAILABLE IN
+claaledeiadaieedabedeeneded PATIENT INFORMATION ~-----~--~~---~--ï--- 33-3 ne nn i er rr rr Se eee eee enema
+Address Line 1: 8394 W 550 8 Employer Name: NOT EMPLOYED
+Address Line 2: Employment Status: DISABLED Work Phone: 
+City: DELPHI ST: IN Zip: 46923 Country: USA Religion: LUTHERAN
+County: CARROLL Home Phone: (765) 418-1313 Church: GLORIA DEI LUTHERAN CHURCH (MULBE
+Marital Status: MARRIED Motherïs Maiden Name: Motherïs Med Rec Nbr:
+coleelaniesiestenteniententesestetestested ADMITTING DIAGNOSIï ------------- 3-9-9 99 rn eR ee nan
+Diagnosis Code: Chief Complaint: INTRACRANIAL HEMORRHAGE
+le leleaieatenteieniectetentenetonton GUARANTOR INFORMATION -- 9-2-2 nnn ee re ee ee ene
+Name: ELSTON, KYLE R SSN: XXX~XX-8923 Empl Name: DISABLED EMPLOYEE
+Addr Line 1: 8394 W 550 8 Relation: Self/Patient Empl Addr Line 1:
+Addr Line 2: Home Phone: (765) 418-1313 Empl Addr Line 2:
+City: DELPHI ST: IN Zip: 46923 DOB: 11/13/1980 Empl City: 8ST: Zip:
+Country: USA Empl Country:
+seaenleniestentententententenentestenten NEAREST RELATIVE INFORMATION ----ï-------- 9-99-9999 ee ee en
+Name: ELSTON, JENNIFER S Address: 8394 W 550 ï Home Phone: (765) 418-9303
+Relation: Husband City: DELPHI ST: IN Zip: 46923 Work Phone: Ext:
+Add Contact: KEIM, CYNDY Address: UNKNOWN Home Phone: (765) 366-9962
+Relation: Other Relative City: LEBANON ST: IN Zip: 46052 Work Phone: Ext:
+ lenleeiedeiedateededeieienten INSURANCE INFORMATION ~~ nw wen nm mmm nm RR RR eR ee eee
+Primary Insurance: 87726 UHC Choice or Select
+Verify Indicator: Yes
+Insurance Name: 87726 UHC Choice or Selec ID #: 960393439 GP #: 708423 EPF: 12/12/2015 EXP: 12/31/2100
+Member: Elston, Jennifer ï Relationship: Husband Empl Status: Employed Full-Time Phone: (877) 842-3210
+Address: P.O. BOX 30555 City: SALT LAKE CITY 8ST: UT Zip: 84130 Ext:
+Auth #: 9224253000 Auth Name: NONE ENTERED Days: 0 Auth Phone: ( ) Secondary Insurance: Medicare
+Verify Indicator: Yes
+Insurance Name: Medicare ID #: 306948923A GP #: EFF: 06/01/2012 EXP: 12/31/2100
+Member: Elston, Kyle R Relationship: Self/Patient Empl Status: Disabled Phone: (800) 633-4227
+Address: PO BOX 8805 City: MARION 8T: IL Zip: 629590912 Ext:
+Auth #: NONE ENTERED Auth Name: Days! 0 Auth Phone: ( ) - i
+Tertiary Insurance:
+Verify Indicator:
+Insurance Name: ID #: GP #: EFF: EXP:
+Member: Relationship: Empl Status: Phone:
+Address: City: ST: Zip: Ext:
+Auth #: Auth Name: Daya: 0 Auth Phone:
+eolenieaientanteneniententecbetententenien DOCUMENTS mew rn a re ee ek
+Does the Patient have an Advanced Directive?
+meee eee ee ACCIDENT INFORMATION qn nm mmm mmm mm re ee ee ee
+Type of Accident: NOT APPLICABLE Accident Date/Time:
+Mode of Arrival: CARROLL COUNTY EMS
+ee COMMENTS nw me a ee ee ee
+Pre-Reg Complete: Pre-Reg Complete Date/Time:
+Reg Complete: YES Reg Complete Date/Time: 12/12/2015 12:12
+
+UNABLE TO VERIFY INS THROUGH PP/LAR 12/12/15 12/12/15 MARKED IM/TYODER
+IP-Admission Note/H&P - Staff Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: IP-Admission Note/H&P - Staff
+
+Document Subject: Neurosurgery Admission H&P Note
+
+Performed By: _ Jackson, Garrett J, MD on 12 December 2015 14:39
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+Neurosurgery Admission H&P Note
+
+Patient: Elston, Kyle R MRN: 73207092 FIN: 000420153496
+Age: 35 years Sex: Male DOB: 11/13/80
+
+Associated Diagnoses: None
+
+Author: Jackson, Garrett J, MD
+
+Chief Complaint
+headache
+
+History of Present Illness
+
+35 year old male with known history of cerebral melanoma status post resection x3 via right temporal craniotomy
+by Dr. Gehring, interval GK x1 and cyberknife x2. Followed with an oncologist and neurosurgeon in Chicago
+but recently stopped chemotherapy at last appointment. Concern for interval new tumor growth on most
+recent MRI not available for review at this time but available in office by report. Recent re-hemorrhage in
+October of this year. This morning at 0400 he had an acute headache right frontal with chills and feelings of
+lethargy. No seizure. No new weakness or vision changes but baseline left hemiparesis. Emesis and nausea at
+home.
+
+Histories
+
+Home Medications (6) Active
+acetaminophen 325 mg oral tablet 650 mg = 2 Tablet, PRN, Orally, Q4H
+
+Adderall XR 10 mg capsule 10 mg = 1 Capsule, Orally, QAM
+
+ALprazoLAM 0.5 mg oral tablet 0.5 mg = 1 Tablet, PRN, Orally, Daily
+dexamethasone 4 mg oral tablet 4 mg = 1 Tablet, Orally, Q12H
+
+fluticasone 50 mcg/inh nasal spray 2 Spray, Nostrils, Both, Daily
+levothyroxine 0.05 mg (50 mCg) oral tablet 50 mCg = 1 Tablet, Orally, Daily
+
+Allergies
+Tape: sulfa drugs
+
+Histories: Past Medical History:
+Resolve
+ADHD (attention deficit hyperactivity disorder) (2158158016): Resolved., Procedure History: Include
+procedure history
+right ankle, gallbladder, crainiotomy x 3., Social History: Include social history
+Alcohol Assessment senate -taiaialil ales
+
+Current, Beer
+Substance Abuse Assessment
+
+Printed by: Sharts, Jennifer K, RN Page 1 of 4
+Printed on: 12/16/15 10:01 (Continued)
+IP-Admission Note/H&P - Staff Elston, Kyle R - 73207092
+
+* Final Report *
+
+Denies, Previous treatment: None. IV drug use: No. Drug use interferes with work/home: No. Ready to
+change: No. Household substance abuse concerns: No. Prescription medication misuse: No.
+-Tobacco Assessment - :
+Never Smoker
+
+Family history positive for cancer
+
+Review of Systems
+as per HPI, otherwise negative
+
+Physical Examination
+
+Vital Signs (most recent and range for last 24 hours)
+
+Temp (CEL) 36.7 (36.7-36.7) Temp (FAHR) 98.1 (98.1-98.1), BP 133/92 (133-150)/(92-106), HR 48 (45-64), RR 12 (10-21),
+O2Sat 100 (97-100)
+
+Neurologic (mo Cc nd range for last 24 hours
+
+GCS 15(15-15)
+
+Eye: PERRL at 3 mm, EOMI, peripheral fields grossly normal
+
+HENT: normocephalic, atraumatic
+
+well healed right craniotomy scar.
+
+Neck: Full range of motion.
+
+Respiratory: Respirations are non-labored, Lungs are clear to auscultation.
+
+Cardiovascular: Normal rate, Regular rhythm.
+
+Gastrointestinal: Soft, Non-tender.
+
+Neurologic: Glasgow Coma Scale: Eye opening response ( Spontaneous = 4 ), Verbal response ( Oriented =
+5 ), Motor response ( Obeys verbal instruction = 6 ).
+
+General: Alert and oriented, ill in appearance
+
+Cognitive/ Behavioral:
+Orientation: Oriented X 3.
+ïConcentration: Intact.
+Memory: Intact.
+Language: Intact.
+Psychiatric: Appropriate mood & affect.
+Musculoskeletal
+Left hemiparesis at baseline, full strength right upper and lower extremities, sensory exam intact throughout.
+at pommel
+
+Results Review
+
+Labs ï Last 24 Hrs SELECT Labs ONLY
+
+12/12/45 12:05
+134L(Na)  104(Cl) = 18(BUN) AlkPhos AST ALT Bili Prot ALB
+Printed by: Sharts, Jennifer K, RN Page 2 of 4
+
+Printed on: 12/16/15 10:01 (Continued)
+IP-Admission Note/H&P - Staff Elston, Kyle R - 73207092
+
+* Final Report *
+
+ïïï|ïïï|ïïï<rzeiiony ïïï|ïïï|ïïï|-ï-|-ï-|--ï
+4.4#(K)  26(CO2) _ï0.94(Crr) 39 19H 22 0.4 6.4 3.9
+Ca 9.1 12/12/15 12:05
+PT 17.6H 12/12/15 13:50
+INR 1.58H 12/12/45 13:50
+12/12/15 12:05
+44.3(Hgb)
+16.6H(WBC) > ïïïï <<217(Pit)
+42.6(Hct)
+
+# = Comment: See Lab Flowsheet for detalls
+
+Radiology Results
+
+Radiology Results - Last 24 hours
+
+12/12/2015 12:54 - CT Head without IV Contrast
+
+STUDY: CT HEAD/BRAINDATE: 12/12/2015 12:35 PMCOMPARISON: None.INDICATION: Severe headache today.
+No abnormal tumor removal 2 monthsago.FINDINGS: Multiple computed axial tomographic images through the
+brainwithout contrast was obtained. There are no old studies available forcomparison. There is a craniotomy
+defect overlying the right frontalparietal bones. There is intracranial! hemorrhage in what appears to bethe
+surgical bed. There is low density surrounding the hemorrhage areawhich may represent edema.There may be a
+slight midline shift to the right. The rest of brainparenchyma is unremarkable. The ventricles appear to be of
+normalcaliber. There is some mild effacement of the sulci on the right.ulci on the right.
+
+Impression and Plan
+
+35 year old male with known history of right temporal melanoma with 3 prior resections, GK and cyberknife
+treatment as well as chemotherapy, and recent temporal hemorrhage in October. Appearance of new
+hemorrhage on CT brain today with acute headache and nausea this morning. Unfortunately unable to view
+old images secondary to synapse downtime today.
+
+Will admit to PCU for neuro-observation and plan repeat CT brain tomorrow. INR slightly elevated at 1.58, will
+follow up with repeat INR tomorrow.
+
+Hypothyroidism. will restart levothyroxine at 50mcg/d
+
+Cerebral edema and headache: increase dexamethasone to 4mg q6 hours on admission
+
+Symptomatic nausea and vomiting treatment with hydration, zofran, liquid diet, will advance as tolerated
+
+ADHD. continue adderral xr 10mg daily
+
+DVT prophylaxis with scds and ambulation
+
+GI prophylaxis with PPI
+
+Patient with no prior history of seizures, will hold aed at this time but watch closely for any sign of seizure given
+new hemorrhage
+
+nD
+
+Signature Line
+
+ee ee ee Se ee tet et tt tt te Se et ee et tt EE NE SE SS SE SS SS SS SNP SS SY SS Ye YE et SY A ht Ht et
+
+Printed by: Sharts, Jennifer K, RN Page 3 of 4
+Printed on: 12/16/15 10:01 (Continued)
+|IP-Neurosurgery Staff Progress Note Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: |P-Neurosurgery Staff Progress Note
+
+Document Subject: Neurosurgery Progress Note
+
+Performed By: ï ' Jackson, Garrett J, MD on 13 December 2015 10:16
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+
+Neurosurgery Progress Note
+
+Patient: Elston, Kyle R MRN: 73207092 FIN: 000420153496
+Age: 35 years Sex: Male DOB: 11/13/80
+
+Associated Diagnoses: None
+
+Author: Jackson, Garrett J, MD
+
+Subjective
+worsened headache and persistent nausea, emesis overnight.
+
+Objective
+Active Inpatient Meds
+Active Scheduled Inpatlent Medications
+
+amphetamine-dextroamphetamine (Adderall) (Adderall XR), Cap, Slow Rel, 10 mg, Orally, QAM, Start: 12/13/15 09:00:00
+
+dexamethasone, Injection, 4 mg, IV Push, Q6H, Start: 12/12/15 15:00:00
+dexamethasone, Injection, 10 mg, |V Push, ONCE, Start: 12/13/15 09:35:00
+
+fentaNYL (fentaNYL patch 50 mCg/hr.), Patch, 1 Patch, Topical, Every 3 Days, Start: 12/13/15 10:00:00
+fentaNYL patch REMOVAL, Patch, Remove , Topical, Every 3 Days, Start: 12/16/15 09:27:00
+
+levothyroxine, Tablet, 50 mCg, Orally, Daily, Start: 12/13/15 06:00:00
+
+pantoprazole (pantoprazole 40 mg oral delayed release tablet), Tab, Enteric Coat, 40 mg, Orally, Daily, Start: 12/13/15
+
+09:00:00
+
+scopolamine (scopolamine patch 1.5 mg), Patch, 1 Patch, Topical, Every 3 Days, Start: 12/13/15 10:00:00
+scopolamine patch REMOVAL, Patch, Remove , Topical, Every 3 Days, Start: 12/16/15 09:27:00
+
+Sodium Chloride 0.9% 1,000 mL IV 75 mL/hr
+Solution PREMIX + Sodium Chloride 3% PREMIX IV 30 mL/hr
+
+One-Time Medications Given 12/12/15 00:00:00 TO 12/13/15 10:09:35
+
+HYDROmorphone (Dilaudid), Injection, 1 mg, |1V Push, ONCE, (1 DOSE 12/12/15 12:34:00)
+HYDROmorphone (Dilaudid), Injection, 1 mg, IV Push, ONCE, (1 DOSE 12/12/15 15:11:00)
+
+HYDROmorphone, Injection, 1 mg, IV Push, ONCE, (1 DOSE 12/12/15 21:45:00)
+ondansetron, Injection, 4 mg, IV Push, ONCE, (1 DOSE 12/12/15 12:35:00)
+
+Vital Siqns st recent and ran ast 24 hours
+
+Temp (CEL) 37.2 (36.7-37.2) Temp (FAHR) 99.0 (98.1-99.0), BP 149/91 (133-179)/(80-106), HR 56 (42-74), RR 16 (5-51),
+
+O2Sat 100 (97-100)
+eurologic (mo cent and range for
+GCS 14(14-15)
+
+ETAILS - Last 2 S -0559) from 12/12 - 3
+
+Printed by: Sharts, Jennifer K, RN
+Printed on: 12/16/15 10:01
+
+Page 1 of 3
+(Continued)
+IP-Neurosurgery Staff Progress Note Elston, Kyle R - 73207092
+
+* Final Report *
+
+TOTAL INTAKE (ml) : 945.0
+intake Detail (ml): 
+Sodium Chloride 0.9% = 945.00
+
+TOTAL OUTPUT (ml): 1500.0 Total Urine Output (ml) : 0
+Output Detail (ml):
+
+Intermittent Cath = 1500.00
+URINE COUNT: 0 STOOL COUNT: 0
+
+BALANCE (ml) : -555.00
+
+Physical Examination
+GCS 3/6/5
+nontoxic but ill in appearance, moderate distress
+Opens eyes to voice
+PERRL, EOMI
+Face grossly symmetric at rest with baseline mild left facial droop at baseline
+Oriented to self, place, month, current events
+left hemiparesis at baseline, 5/5 strength right upper and lower extremities
+
+Results Review
+
+Labs ï Last 24 Hrs SELECT Labs ONLY
+
+12/13/15 07:16
+130L(Na) 97L(Cl) 15(BUN) AlkPhos AST ALT Bili Prot ALB
+ïïïe |Iïïï | ïïï<449H(Glu) ïïï|ïïï |-ïï |ïïï|-ïï iïï
+4.2(K) 23(CO2) ï-0.63L(Cr) 39 19H 22 0.4 6.4 3.9
+Ca 9.1 12/13/15 07:16
+PT 10.9 12/13/15 08:15
+INR 0.96 12/13/15 08:15
+12/13/15 08:15
+14.5(Hgb) Neu 93N% Lym 3N% Mon 4N%
+17.8H(WBC) > ïïïï <1 96(Pit) a |-ïïï | aera | a | iii Mined
+43.3(Hct) Neu 16.5H Lym 0.6L Mon 0.7
+
+# = Comment: See Lab Flowsheet for details
+
+Radiology Results
+
+Printed by: Sharts, Jennifer K, RN Page 2 of 3
+Printed on: 12/16/15 10:01 (Continued)
+|P-Neurosurgery Staff Progress Note Elston, Kyle R - 73207092
+
+* Final Report *
+
+Radiology Results - Last 24 hours
+12/12/2015 12:54 - CT Head without IV Contrast
+
+STUDY: CT HEAD/BRAINDATE: 12/12/2015 12:35 PMCOMPARISON: None.INDICATION: Severe headache s today,
+No abnormal tumor removal 2 monthsago.FINDINGS: Multiple computed axial tomographic images through the
+brainwithout contrast was obtained. There are no old studies available forcomparison. There is a craniotomy
+defect overlying the right frontalparietal bones. There is intracranial hemorrhage in what appears to bethe
+surgical bed. There is low density surrounding the hemorrhage areawhich may represent edema. There may be a
+slight midline shift to the right. The rest of brainparenchyma is unremarkable. The ventricles appear to be of
+normalcaliber. There is some mild effacement of the sulci on the right.ulci on the right.
+
+12/13/2015 09:01 - CT Head without IV Contrast
+
+STUDY: CT HEAD/BRAINDATE: 12/13/2015 8:54 AMCOMPARISON: 12/12/2015.INDICATION: Right temporal
+hemorrhage. Acute change in neurologicalstatus.FINDINGS: Multiple computed axial tomographic images
+through the brainwithout intravenous contrast was obtained. This study was compared toa previous CT of the
+brain dated 12/12/2015.There is again noted a right temporal lobe intracranial hemorrhagethat appears to be
+unchanged when compared to the previous study. There still some mild effacement of the right lateral ventricle
+withslight midline shift. No extra-axial fluid collections are seen.ctions are seen.
+
+Impression and Plan
+35 year old male with melanoma and new right temporal hemorrhage. Stable on repeat ct brain this morning,
+persistent and worsening headache and nausea. Neurologic status stable
+Add fentanyl patch and scopolamine patch for pain and nausea control
+Continue close neuro-observation
+continue dex 4mg q6 hours for cerebral edema, 1 dose now 10mg IV
+Hyponatremia and cerebral edema, will start 3%saline at 30mL per hour and follow q6 hour serum sodium
+foley catheter insertion for urinary retention, close monitoring of I/O
+
+Signature Line
+
+Routed for Review and/or Corrected By:
+
+Completed Action List:
+
+* Perform by Jackson, Garrett J, MD on 13 December 2015 10:16
+* Sign by Jackson, Garrett J, MD on 13 December 2015 10:16
+
+* VERIFY by Jackson, Garrett J, MD on 13 December 2015 10:16
+
+Printed by: Sharts, Jennifer K, RN Page 3 of 3
+Printed on: 12/16/15 10:01 (End of Report)
+[P-Neurosurgery Staff Progress Note Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: |P-Neurosurgery Staff Progress Note
+
+Document Subject: Progress Note
+
+Performed By: Gehring, Randy L, MD on 14 December 2015 06:37
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+
+Progress Note
+
+Patient: Elston, Kyle R MRN: 73207092 FIN: 000420153496
+Age: 35 years Sex: Male DOB: 11/13/80
+
+Associated Diagnoses: None
+
+Author: Gehring, Randy L, MD
+
+Subjective
+HA/nausea resolved.
+
+Objective
+Active Inpatient Meds
+Active Scheduled Inpatient Medications
+amphetamine-dextroamphetamine (Adderall) (Adderall XR), Cap, Slow Rel, 10 mg, Orally, QAM, Start: 12/13/15 09:00:00
+dexamethasone, Injection, 4 mg, IV Push, Q6H, Start: 12/12/15 15:00:00
+fentaNYL (fentaNYL patch 50 mCg/hr.), Patch, 1 Patch, Topical, Every 3 Days, Start: 12/13/15 10:00:00
+fentaNYL patch REMOVAL, Patch, Remove , Topical, Every 3 Days, Start: 12/16/15 09:27:00
+levothyroxine, Tablet, 50 mCg, Orally, Daily, Start: 12/13/15 06:00:00
+pantoprazole (pantoprazole 40 mg oral delayed release tablet), Tab, Enteric Coat, 40 mg, Orally, Daily, Start: 12/13/15
+09:00:00
+scopolamine (scopolamine patch 1.5 mg), Patch, 1 Patch, Topical, Every 3 Days, Start: 12/13/15 10:00:00
+scopolamine patch REMOVAL, Patch, Remove , Topical, Every 3 Days, Start: 12/16/15 09:27:00
+Sodium Chloride 0.9% 1,000 mL IV 75 mL/hr
+Solution PREMIX + Sodium Chloride 3% PREMIX IV 30 mL/hr
+
+One-Time Medications Given 12/13/15 00:00:00 TO 12/14/15 06:35:22
+dexamethasone, Injection, 10 mg, lV Push, ONCE, (1 DOSE 12/13/15 10:32:00)
+
+PRN Medications (0600 - 0559) from 12/13 - 12/14
+
+ALprazoLAM, 0.5 mg, Orally, Daily, 0 Dose(s)
+HYDROmorphone, 0.5 mg, IV Push, Q2H, 8 Dose(s)
+acetaminophen, 650 mg, Orally, Q4H, 0 Dose(s)
+
+fluticasone nasal, Nostrils, Both, Daily, 0 Dose(s)
+
+hydrALAZINE, 10 mg, IV Push, Q4H, 2 Dose(s)
+hydroCODONE-acetaminophen, 1 Tablet, Orally, Q6H, 0 Dose(s)
+labetalol, 5 mg, !V Push, Q4H, 0 Dose(s)
+
+ondansetron, 8 mg, IV Push, Q6H, 1 Dose(s)
+
+ital Sians (most recent and range for last ours
+
+Printed by: Sharts, Jennifer K, RN Page 1 of 3
+Printed on: 12/16/15 10:01 (Continued)
+IP-Neurosurgery Staff Progress Note Elston, Kyle R - 73207092
+
+* Final Report *
+
+Temp (CEL) 37.2 (36.5-37.4) Temp (FAHR) 99.0 (97.7-99.3), BP 138/85 (125-181)/(78-102), HR 61 (53-77), RR 11 (8-25),
+O2Sat 94 (93-94)
+
+Neurologic (most recent and range for last 24 hours) ~
+GCS 14(14-15)
+
+Physical Examination
+Neurologic: Sleepy,impulsive,L hemianopsia,spastic L paresis.
+
+Results Review
+
+Labs ï Last 24 Hrs SELECT Labs ONLY
+
+12/13/15 07:16
+430L(Na)  97L(Cl) ï 15(BUN)
+
+cee |ïïï | ïïï<149H(Glu)
+4.2(K)  23(CO2) ï0.63L(Cr)
+
+Ca 9.1 12/13/15 07:16
+Na*131L 12/14/15 05:03
+Glu 135H# 12/13/15 13:49
+PT 10.9 12/13/15 08:15
+INR 0.96 12/13/15 08:15
+
+12/13/15 08:15
+14.5(Hgb) Neu 93N% Lym 3N% Mon 4N%
+47.8H(WBC) > ï <1 96(Pit) ïïïï|ï_ï_ïï|_ïï |-ïïï|--ïï
+43.3(Hct) Neu 16.5H Lym 0.6L Mon 0.7
+
+# = Comment: See Lab Flowsheet for details
+
+Impression and Plan
+Right temporal ICH and high likelihood of tumor-dw pt/wife-for crani today-prognosis guarded
+
+Signature Line
+
+eet ee et et ee tt tt Ne et et se St et lt ES SY SS TS Se eH HM HS Se
+
+eet et ee et tee St eh Set et Se Se Sk SS SS St St Sh ee et et et he
+
+Routed for Review and/or Corrected By:
+
+Completed Action List:
+
+* Perform by Gehring, Randy L, MD on 14 December 2015 06:37
+* Sign by Gehring, Randy L, MD on 14 December 2015 06:37
+
+* VERIFY by Gehring, Randy L, MD on 14 December 2015 06:37
+
+Printed by: Sharts, Jennifer K, RN Page 2 of 3
+Printed on: 12/16/15 10:01 (Continued)
+IP-Neurosurgery Staff Progress Note Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: |P-Neurosurgery Staff Progress Note
+
+Document Subject: Progress Note
+
+Performed By: ï Gehring, Randy L, MD on 15 December 2015 06:32
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+
+Progress Note
+
+Patient: Elston, Kyle R MRN: 73207092 FIN: 000420153496
+Age: 35 years Sex: Male DOB: 11/13/80
+
+Associated Diagnoses: None
+
+Author: Gehring, Randy L, MD
+
+Subjective
+Min HA.Voice better but does not move face well.No HA.
+
+Objective
+Active Inpatient Meds
+Active Schedul npatient Medications
+
+amphetamine-dextroamphetamine (Adderall) (Adderall XR), Cap, Slow Rel, 10 mg, Orally, QAM, Start: 12/13/15 09:00:00
+
+dexamethasone, Injection, 4 mg, IV Push, Q6H, Start: 12/12/15 15:00:00
+leveTIRACetam, 500 mg, IVPB, Q12H, Start: 12/14/15 22:00:00
+levothyroxine, Tablet, 50 mCg, Orally, Daily, Start: 12/13/15 06:00:00
+
+pantoprazole (pantoprazole 40 mg oral delayed release tablet), Tab, Enteric Coat, 40 mg, Orally, Daily, Start: 12/13/15
+
+09:00:00
+
+scopolamine (scopolamine patch 1.5 mg), Patch, 1 Patch, Topical, Every 3 Days, Start: 12/13/15 10:00:00
+scopolamine patch REMOVAL, Patch, Remove , Topical, Every 3 Days, Start: 12/16/15 09:27:00
+
+Sodium Chloride 0.9% PREMIX + Potassium Chloride PREMIX IV 100 mL/hr
+
+One-Time Medications Given 12/14/15 00:00:00 TO 12/15/15 06:29:03
+diphenhydrAMINE, Injection, 25 mg, IV Push, ONCE, (1 DOSE 12/14/15 16:19:00)
+haloperidol, Injection, 0.5 mg, IV Push, Ad Hoc ONCE, (1 DOSE 12/14/15 16:35:00)
+haloperidol, Injection, 0.5 mg, IV Push, Ad Hoc ONCE, (1 DOSE 12/14/15 16:46:00)
+
+ondansetron, Injection, 4 mg, IV Push, ONCE, prn, Nausea/Vomiting-Use Second, (1 DOSE 12/14/15 16:15:00)
+
+PRN Medications (0600 - 0559) from 12/14 - 12/15
+ALprazoLAM, 0.5 mg, Orally, Dally, 0 Dose(s)
+
+HYDROmorphone, 1 mg, IV Push, Q2H, 4 Dose(s)
+acetaminophen, 650 mg, Orally, Q4H, 0 Dose(s)
+
+fluticasone nasal, Nostrils, Both, Daily, 0 Dose(s)
+
+hydrALAZINE, 10 mg, IV Push, Q4H, 0 Dose(s)
+hydroCODONE-acetaminophen, 2 Tablet, Orally, Q4H, 0 Dose(s)
+labetalol, 5 mg, IV Push, Q4H, 0 Dose(s)
+
+ondansetron, 8 mg, IV Push, Q6H, 0 Dose(s)
+
+Printed by: Sharts, Jennifer K, RN
+Printed on: 12/16/15 10:02
+
+Page 1 of 2
+(Continued)
+|P-Neurosurgery Staff Progress Note Elston, Kyle R - 73207092
+
+* Final Report *
+
+Vital Siqns (most recent and range for last 24 hours)
+
+Temp (CEL) 37 (36.5-37.5) Temp (FAHR) 98.6 (97.7-99.5), BP 157/96 (128-176)/(82-101), ABP 189/107 (189-207)/(77-107),
+HR 70 (55-92), RR 14 (5-36), O2Sat 96 (84-96)
+
+Neurologic (most recent and range for last 24 hours)
+GCS 13(13-14)
+
+Physical Examination
+Respiratory: Respirations are non-labored.
+Gastrointestinal: Soft, Non-tender.
+Neurologic: Alert, Oriented, Face sym but little vol movement,spastic L paresis w/o change,agitated last
+
+night-seems close to nl today.
+Results Review
+
+Labs ï Last 24 Hrs SELECT Labs ONLY
+
+12/15/16 03:06
+434L(Na) 100(Cl) _ï 17(BUN) AlkPhos AST ALT _ Bili Prot. ï ALB
+|} <aaen) |---| |
+4.4(K)  29(CO2) ï0.63L(Cr) 36 42L 15 0.4 5.9L 3.4L
+Ca 8.7 12/15/15 03:06
+Na* 135 12/14/15 19:08
+
+12/15/15 03:06
+
+43.5(Hgb)
+46.1H(WBC)->ïïïï <<16 (Pit)
+
+40.3(Hct)
+
+Impression and Plan
+POD#1 1)Transfer to floor 2)PT/OT/ST 3)Lax
+
+Signature Line
+
+ee ee ee me ee ee eee ee et et et et at ee ee eee eee et free ee ee Se Se ee Se Se Se re et ee Ee a et Rt et et hh
+
+ee ee ee ee te se ee ST Se ee EY th eh tt ht tt tt tt et tS tM Se
+
+Routed for Review and/or Corrected By:
+
+Completed Action List: :
+
+* Perform by Gehring, Randy L, MD on 15 December 2015 06:32
+* Sign by Gehring, Randy L, MD on 15 December 2015 06:32
+
+* VERIFY by Gehring, Randy L, MD on 15 December 2015 06:32
+
+Printed by: Sharts, Jennifer K, RN Page 2 of 2
+Printed on: 12/16/15 10:02 (End of Report)
+Speech Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: Speech Therapy Evaluation
+
+Document Subject: Clinical Swallow
+
+Performed By: = ~ï~Burcham, Abigail M, MA on 15 December 2015 11:39
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+
+Clinical Swallow Entered On: 12/15/2015 12:25
+Performed On: 12/15/2015 10:05 by Burcham, Abigail M, MA
+
+Recommendations
+
+Recommendations Comment : History: Patient is a 35 year old male who was admitted to [U Health Arnett on
+12/12/2015 due to headache. Head CT showed intracranial hemorrhage within a past surgical site. The patient has a
+history of cerebral melanoma in the right temperal love with resection x3 and chemotherapy. The patient had a right
+temperal lobe craniotomy on 12/14/2015. Head CT on 12/15/2015 showed status post evacuation of right temperal
+hematoma with reduced mass effect. Dysphagia evaluation was ordered by Dr. Gehring. The patient is currently on a
+clear liquid diet.
+
+Patient with reported reduced movement of upper lip. Patient's RN reported the patient's night nurse was able to give
+medications to patient whole, in applesauce followed by ice-chips.
+
+The patient has not had previous dysphagia or signs of aspiration with intake. The patient's wife reported the patient
+had a Clinical bedside evaluation in 2009 after a surgery. However, at that time the patient did not have any oral
+motor deficits as he is presenting with now. She stated the patient has always been slowly upgraded in diet/oral
+intake after surgeries. The patient's wife did report that the patient made a little more rounding of lips this morning to
+give her a kiss than yesterday.
+
+Evaluation: The patient was alert and oriented to self. He appeared aware of the situation and fearful. He calmed to
+reassurance by his wife.
+
+The patient attempted to follow directions for oral motor evaluation. The patient was unable to retract or protrude lips.
+He was unable to close lips to hold air in mouth or keep bolus in oral cavity. Tongue with slight deviation to the left.
+Reduced strength bilaterally with external pressure observed. Palate with reduced movement on the left upon
+vocalization. Cough was sharp and respiratory drive was strong. Patient's speech was 100% intelligible, imprecise
+articulation was noted. Patient with left upper and lower extremity paresis.
+
+Oral care was completed. Patient was repositioned as upright as possible. He was given ice-chips x3. Patient used
+teeth to hold ice in oral cavity while retrieving from the spoon. Patient flexed head backwards to use gravity to aid
+with retrieval of bolus from the spoon. Reduced bolus contro! was observed with reduced lingual manipulation
+abilities. The patient had to use his finger x1 to move ice from buccal cavity to more midline oral cavity for tongue to
+manipulate. Impulsive mastication and swallow noted. Laryngeal elevation palated. Patient with 1-2 swallows per
+ice-chip trial. Patient with similar oral motor and swallow function with 1/2tsp, and 1 tsp water x5. No overt signs of
+aspiration were noted. Patient was then handed the cup to attempt cup sip. Patient was aided with clinican using
+hand over hand technique. Patient with reduced ability to control bolus flow from cup and coordinate lingual
+movements. Immediate coughing was observed. Suspected spill of bolus posteriorly into pharynx prior to pharyngeal
+swallow trigger and airway protection. Patient consumed 20z of applesauce in 1/2tsp amounts fed by clinician. He
+was also observed with 3 pills, whole one at a time in applesauce. Swallow again was similar to ice and 1/2tsp, tsp
+
+Printed by: Sharts, Jennifer K, RN Page 1 of 5
+Printed on: 12/16/15 10:03 (Continued)
+Speech Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+water. Patient used his right hand to close lips around the spoon. No observed signs/symptoms of aspiration were
+noted. No lingual residue was observed after the 20z of applesauce.
+
+Impressions: Patient presents with reduced oral motor abilities and observed moderate-severe oral dysphagia.
+Given patient's recent intracranial hemorrhage and craniotomy with resulting oral motor deficits, further evaluation of
+swallow function is warranted radiographically. As the patient is reported to have some increased movement of lips
+today compared to yesterday, timing of swallow study should be considered and patient may benefit from holding off
+on study for a few days awaiting spontaneous recovery.
+
+Recommendations:
+
+Consider short-term alternative nutrition/hydration with limited intake of puree and thin liquids via spoon with 100%
+feeding by RN or wife.
+
+Aggressive oral care at least once every 2 hours & before any oral intake.
+
+Diagnostic therapy with Speech to assess oral motor and swallowing functions to determine appropriate timing for
+videofluoroscopic swallow study (VFSS).
+
+RN was provided with information. Dr. Gehring was contacted via phone and was to be provided information by
+nurse.
+
+Abigail Burcham, MA, CCC-SLP
+pager: 420-2738
+
+Burcham, Abigail M, MA - 12/15/2015 11:39
+Plan of Care
+Repeat Assessment : At Discretion of MD/SLP
+Frequency of Therapy: 5 Times a Week
+Duration: 2 -Weeks
+Re-Evaluation : 12/28/2015
+Rehabilitation Potential: Good
+Strengths : Alert, Cooperative, Family/Caregiver Support, Motivated, Prior Baseline Function
+Limitations : Co-Morbidities, Safety-Awareness, Weakness
+Discharge Needs : Undetermined at This Time with Further Assessment Needed
+Patient/Caregiver Involved in Goal Setting: Yes
+Burcham, Abigail M, MA - 12/15/2015 11:39
+
+12/15/2015 12/15/2015
+
+Other: Patient will Patient will
+complete tolerate
+diagnostic therapy
+for 3 sessions to
+determine
+appropriate timing
+for further
+evaluation
+radiographically to
+best guide plan of
+care upon
+
+Printed by: Sharts, Jennifer K, RN Page 2 of 5
+Printed on: 12/16/15 10:03 (Continued)
+Speech Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+assessing
+swallow function.
+
+4oz 3 times a day
+
+100% without
+pulmonary
+compromise
+
+Freg/Duration :
+
+Strategy
+
+Functional
+Qualifier :
+
+Goal Status :
+
+Patient Information
+Treating Diagnosis : Dysphagia, oropharyngeal phase
+Referring Physician: Dr. Gehring
+
+feeding by RN or
+wife with liquids
+
+to safely tolerate
+foods/drinks for
+pleasure
+
+Burcham, Abigail
+
+Burcham, Abigail
+M, MA - M, MA 12/15/2015 11:39 | 12/15/2015 11:39
+
+Pain Reported: Patient reporting no pain
+
+Diagnosis Summary Comments : Per Dr. Jackson admit note:
+Chief Complaint
+
+headache
+
+History of Present Illness
+
+35 year old male with known history of cerebral melanoma status post resection x3 via right temporal craniotomy by
+Dr. Gehring, interval GK x1 and cyberknife x2. Followed with an oncologist and neurosurgeon in Chicago but
+recently stopped chemotherapy at last appointment. Concern for interval new tumor growth on most recent MRI not
+available for review at this time but available in office by report. Recent re-hemorrhage in October of this year. This
+morning at 0400 he had an acute headache right frontal with chills and feelings of lethargy. No seizure. No new
+weakness or vision changes but baseline left hemiparesis. Emesis and nausea at home.
+
+Histories
+
+- Home Medications (6) Active
+
+acetaminophen 325 mg oral tablet 650 mg = 2 Tablet, PRN, Orally, Q4H
+Adderall XR 10 mg capsule 10 mg = 1 Capsule, Orally, QAM
+
+ALprazoLAM 0.5 mg oral tablet 0.5 mg = 1 Tablet, PRN, Orally, Daily
+dexamethasone 4 mg oral tablet 4 mg = 1 Tablet, Orally, Q12H
+
+fluticasone 50 mcg/inh nasal spray 2 Spray, Nostrils, Both, Daily
+levothyroxine 0.05 mg (50 mCg) oral tablet 50 mCg = 1 Tablet, Orally, Daily
+
+Printed by: Sharts, Jennifer K, RN Page 3 of 5
+Printed on: 12/16/15 10:03 (Continued)
+Speech Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+- Allergies
+Tape: sulfa drugs
+
+Histories: Past Medical History:
+Resolved
+ADHD (attention deficit hyperactivity disorder) (2158158016): Resolved., Procedure History: Include procedure
+history
+right ankle, gallbladder, crainiotomy x 3., Social History: Include social history
+Alcohol Assessment
+Current, Beer
+Substance Abuse Assessment
+Denies, Previous treatment: None. IV drug use: No. Drug use interferes with work/home: No. Ready to
+change: No. Household substance abuse concerns: No. Prescription medication misuse: No.
+Tobacco Assessment
+Never Smoker
+
+Family history positive for cancer
+
+12/15/2015 head CT impressions:
+
+CT1003
+
+IMPRESSION:
+
+1. Status post evacuation of right temporal lobe hematoma with
+decreased mass effect
+
+2. Intracranial air is noted with some residual hematoma in the
+surgical bed.
+
+Patient Precautions : Aspiration Precautions, Fall Precautions
+Pulmonary Status: WFL
+Burcham, Abigail M, MA - 12/15/2015 11:39
+Skin Integrity
+Braden Score Review: Patient's Braden/Braden Q Score currently does not place them at risk for pressure ulcer
+development
+Burcham, Abigail M, MA - 12/15/2015 11:39
+ST Education
+Individuals to be Taught: Patient, Spouse, Other: RN, MD
+Preferred Learning Method LearnProfile : N/erbal
+Barriers to Learning: Acuity of illness, Emotional state
+Caregiver Barriers to Learning: None Evident
+Barriers Narrative : Status post craniotomy on 12/14/2015
+Readiness to Learn: Communicates Readiness
+PtEd-ST Disease Process : Dysphagia
+PtEd-ST Misc Topics: Goals of Speech Therapy, Plan of Care, Role of Speech Therapy, Rehab Continuum of Care
+
+Printed by: Sharts, Jennifer K, RN Page 4 of 5
+Printed on: 12/16/15 10:03 (Continued)
+Speech Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+PtEd-ST Txs/Tests : Bedside Swallow Results, Diet Recommendations, Options for, Alternate Means of Nutrition,
+Oral care, Risks/Signs and Symptoms of Aspiration, Safe Swallow Precautions, Treatment Plan, VFS/Modified ï
+Barium Swallow Description/Purpose
+PtEd-ST Teaching Method : Demonstration, Telephone, Verbal Explanation, Other: written documentation
+PtEd-ST Teaching Eval: Teach Back (Verbal)
+PtEd- St Teaching Evaluation Patient: Teach Back (Verbal)
+
+Burcham, Abigail M, MA - 12/15/2015 11:39
+Procedures
+Eval OM/Feedings : ST Eval OM/Feedings Extensive
+
+Burcham, Abigail M, MA - 12/15/2015 11:39
+ST Statistics
+Statistics Inpatient: \npatient Visit
+Total Time. 80 Minutes
+SLP Plan, Goals Estab With Pt, Caregiver: Yes
+
+Burcham, Abigail M, MA - 12/15/2015 11:39
+
+(As Of: 12/15/2015 12:25:02 EST)
+
+Problems(Active)
+
+H/O: stroke (SNOMED CT Name of Problem: H/O: stroke : Confirmation: Confirmed :
+
+'2476091017 ) Classification: Medical: Code: 2476091017 : Last Updated:
+03/14/2014 04:18 : Life Cycle Status: Active : Vocabulary:
+SNOMED CT
+
+Diagnoses(Active)
+
+Acute spontaneous Date: 12/12/2015 : Diagnosis Type: Working : Confirmation:
+
+intraparenchymal intracranial | Confirmed : C/inica/ Dx: Acute spontaneous intraparenchymal
+
+hemorrhage intracranial hemorrhage : Classification: Medical : Clinical
+
+Service: Non-Specified : Code: \CD-10-CM : Probability: 0:
+Diagnosis Code: \62.9
+
+Completed Action List:
+
+* VERIFY by Burcham, Abigail M, MA on 15 December 2015 11:39
+* Sign by Burcham, Abigail M, MA on 15 December 2015 11:39
+
+* Perform by Burcham, Abigail M, MA on 15 December 2015 11:39
+
+Printed by: Sharts, Jennifer K, RN Page 5 of 5
+Printed on: 12/16/15 10:03 (End of Report)
+Nutrition Services Note Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: Nutrition Services Note
+
+Document Subject: Nutrition Prescription Suggestions
+
+Performed By: Kim, Ashley M on 15 December 2015 12:37
+
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+
+Nutrition Prescription Suggestions Entered On: 12/15/2015 12:38
+Performed On: 12/15/2015 12:37 by Kim, Ashley M
+
+Nutrition Prescription Suggestions
+Oral Suggestion(s) : 12/15: NPO and not able to tolerate oral diet d/t continued N/V. Today is day #3 without
+adequate oral intakes and N/V. If unable to tolerate oral by day #7, recommend placing SBFT for TF
+
+Enteral Suggestion(s) : 12/15: \f unable to tolerate oral diet, could trial SBFT (do not feed into stomach if N/V
+persist) TF of Jevity 1.5 with goal rate of 55mL/hr to meet 100% of estimated nutritional needs.
+
+Matnutrition Diagnosis View. No Malnutrition Data Recorded
+Comments : 12/15: no diet education needs identified at this time.
+
+See Nutrition Tab in Results for Details: 12/15/2015 12:38
+, Kim, Ashley M - 12/15/2015 12:37
+
+Completed Action List:
+
+* VERIFY by Kim, Ashley M on 15 December 2015 12:37
+* Sign by Kim, Ashley M on 15 December 2015 12:37
+
+* Perform by Kim, Ashley M on 15 December 2015 12:37
+
+Printed by: Sharts, Jennifer K, RN Page 1 of 1
+Printed on: 12/16/15 10:03 (End of Report)
+Physical Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: Physical Therapy Evaluation
+
+Document Subject: PT Eval IP
+
+Performed By: - Dye, David M, PT on 15 December 2015 13:37
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+
+PT Eval IP Entered On: 12/15/2015 13:37
+Performed On: 12/15/2015 13:37 by Dye, David M, PT
+
+Assessment and Plan IP
+/ Impairments : Balance Deficit, Bed Mobility Deficit, Coordination Deficit, Fall Risk, Gait Deficit, Strength Deficit,
+
+Transfer Deficit
+Treating Diagnosis : Difficulty Walking, Hemiplegia & Hemiparesis Unspecified Side
+
+JS. Rehab Potential: Good
+Assessment/Rationale for Skilled PT: 35 ylo M with PMHx of cerebral melonoma s/p resection x 3 via R temporal
+craniotomy admitted 12-12 having a R temporal hemorrhage with questionable recurrent melanoma. He is now POD
+#1 reopening of R temporal craniotomy with removal of hematoma and cauterization of bleeding points. Pt currenlty
+A&O x 3. He requires Min Assist for supine>L EOB sitting transition, Max Assist for sit<>stand/bed>chair pivot
+transfer. From home, lives with wife and 3 children (2 minor, 1 adult), intermittently uses cane for ambulation, wears
+| AFO, chronic L hemiparesis, driving and working out in community. Pt needs skilled PT intervention to improve
+function. ARF recommended once medically stable.
+
+JY Disposition Recommendations : Acute Rehabilitation Facility
+Frequency : 6 Times a Week
+Duration: 2
+Duration Unit: Weeks
+Therapeutic Procedures Interventions Planned: Therapeutic exercise, Neuromuscular Re-education, Gait training,
+Therapeutic Activities
+Pt/Caregiver Involved in Goal Setting & Tx Plan: Yes
+Dye, David M, PT - 12/15/2015 13:37
+History
+Preferred Name. Kyle
+Referring Physician: Gehring, Randy L, MD
+Patient Location: Room 225 ICU
+\/ Medical Diagnosis : R temporal hemorrhage with questionable recurrent melanoma: s/p reopening of R temporal
+craniotomy w/ removal of hematoma and cauterization of bleeding points 12-14-15
+J Onset Date: 12/12/2015
+- Patient Precautions : Aspiration Precautions, Fall Precautions
+Dye, David M, PT - 12/15/2015 13:37
+JMWeight Bearing Precautions
+| LeftUE: Full WB
+Right VE: Full WB
+LeftLE:: Full WB
+RightLE.: Full WB
+Dye, David M, PT - 12/15/2015 13:37
+Pertinent Medical History/Hospital Course: see EMR
+
+Printed by: Sharts, Jennifer K, RN Page 1 of 5
+Printed on: 12/16/15 10:03 (Continued)
+Physical Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+Information Given By (Patient History): Patient, Medical Record
+) . ) . . Dye, David M, PT - 12/15/2015 13:37 |
+ff Prior Level of Function
+Transfers : \ndependent
+Bed Mobility: \ndependent
+ADL's : \ndependent
+Ambulation : \ndependent
+(Comment: used cane intermittently, wears L AFO [Dye, David M, PT - 12/15/2015 13:37 ] )
+Dye, David M, PT - 12/15/2015 13:37
+Fall Comments : no recent fall hx reported
+Dye, David M, PT - 12/15/2015 13:37
+/ Sensory Systems
+Auditory : Functional
+Vision: Functional
+Dye, David M, PT - 12/15/2015 13:37
+Subjective Information : c/o tailbone pain, intensity not quantified, felt better once repositioned to chair - RN aware
+
+Dye, David M, PT - 12/15/2015 13:37
+Home Equipment
+
+Rehab Home Equipment
+Cane - Siandard: Owns, Uses
+Dye, David M, PT - 12/15/2015 13:37
+Orthotics
+Ankle-Foot Orthosis : Left
+Dye, David M, PT - 12/15/2015 13:37
+Home Environment
+J Living Situation 1: Lives with Spouse, Other: 2 minor, 1 adult child
+Support System 7: Spouse/Significant Other, Parent, Adult Child
+Residence 7. House
+Residence 7 Levels: 2
+(Comment: pt statys on lower level of home, kids use upper level [Dye, David M, PT - 12/15/2015 13:37 ] )
+Dye, David M, PT - 12/15/2015 13:37
+
+Outside Stairs 1
+
+Stairs Residence 1
+
+Number of Steps :
+
+Dye, David M, PT
+- 12/15/2015
+13:37
+
+Cognition
+Level of Consciousness : Alert
+s Orientation: Oriented x 3, Able to Follow Commands
+
+I
+
+Dye, David M, PT - 12/15/2015 13:37
+
+Vital Signs
+Oxygen Delivery : Room air
+
+Printed by: Sharts, Jennifer K, RN Page 2 of 5
+Printed on: 12/16/15 10:03 (Continued)
+Physical Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+Dye, David M, PT - 12/15/2015 13:37
+Skin Integrity
+Braden Score Review: Patient's Braden/Braden Q Score currently does not place them at risk for pressure ulcer
+development
+Dye, David M, PT - 12/15/2015 13:37
+ROM
+Range Of Motion Grid
+Left Lower Extremity: AROM WFL
+Right Lower Extremity: AROM WFL
+Dye, David M, PT - 12/15/2015 13:37
+Strength
+Functional Strength
+Left Lower Extremity: \mpaired
+(Comment: chronic paresis [Dye, David M, PT - 12/15/2015 13:37 ] )
+Right Lower Extremity: WFL
+Dye, David M, PT - 12/15/2015 13:37
+Tone/Motor
+Muscle Tone: Normal
+Dye, David M, PT - 12/15/2015 13:37
+Mobility
+/ Mobility Level
+Supine to Sit: Min Assist
+(Comment: L side [Dye, David M, PT - 12/15/2015 13:37 ] )
+Sit to Stand: Max Assist
+Stand to Sit: Max Assist
+Bed to Chair: Max Assist
+(Comment: pivot [Dye, David M, PT - 12/15/2015 13:37 ] )
+Dye, David M, PT - 12/15/2015 13:37
+
+Balance
+
+(Poor) Requires
+mod assist (pt
+performs
+50%-74% of the
+
+(Poor+) Requires
+
+min assist (pt
+
+performs 75% of
+the effort)
+
+Dye, David M, PT} Dye, David M, PT
+- 12/15/2015 - 12/15/2015
+13:37 13:37
+
+Dynamic Balance
+Grade : (Poor) Requires} (Poor-) Requires
+mod assist (pt max assist (pt
+performs performs
+50%-74% of the} 25%-49% of the
+effort) to move effort) to move
+
+Printed by: Sharts, Jennifer K, RN Page 3 of 5
+Printed on: 12/16/15 10:03 (Continued)
+Physical Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+from midline or from midline or
+right self right self
+
+Dye, David M, PT] Dye, David M, PT
+- 12/15/2015 - 12/15/2015
+13:37 13:37
+J Gait Assessment
+
+Comments : Pt not able to ambulate on attempt
+
+Dye, David M, PT - 12/15/2015 13:37
+Treatment
+Separate/Distinct Intervention Sequence
+
+| PT Intervention 1_|
+Dye, David M, PT
+
+~ 12/15/2015
+
+13:37
+
+Safety Measures
+Call Light Within Reach: Yes
+
+Fall Alert Slippers On: Yes
+Fall Monitor Alarms On. Yes
+Patient Left in Chair: Yes
+Dye, David M, PT - 12/15/2015 13:37
+Activity Recommendations/Splint Schedule
+Pt Safe to Transfer w Nursing: Yes
+(Comment: pivot with assist of 2 [Dye, David M, PT - 12/15/2015 13:37 ] )
+Dye, David M, PT - 12/15/2015 13:37
+Goals Short Term
+Target Date: 12/29/2015
+Dye, David M, PT - 12/15/2015 13:37
+Mobility Goals IP Short Term
+Description : Scooting, Supine Sit to Stand,
+to Sit, Sit to] Stand to Sit, Bed
+Supine | to Chair, Chair to
+
+Bed
+Moderate Assist
+
+Goal Status: |__ï New| New
+
+Dye, David M, PT| Dye, David M, PT
+- 12/15/2015 - 12/15/2015
+13:37 Tatar
+
+Gait Goals IP Short Term
+Level
+
+Device : Walker Hemi
+
+Printed by: Sharts, Jennifer K, RN Page 4 of 5
+Printed on: 12/16/15 10:03 (Continued)
+Physical Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+(Comment: and L
+AFO [Dye, David
+ï|M, PT - |
+
+12/15/2015 13:37
+
+Gait Pattern :
+Moderate Assist
+
+Dye, David M, PT
+| - 12/15/2015
+Lao7
+
+Procedures
+Evaluation: Extended
+Dye, David M, PT - 12/15/2015 13:37
+PT Statistics
+Statistics Inpatient: \P Evaluation Visit
+Eval Time. 50 Minutes
+Total Time: 50 Minutes
+PT Evaluation Complete: Yes
+PT Onset Date: 12/12/2015
+PT Physician Referral Date: 12/15/2015
+PT Evaluation Date : 12/15/2015
+PT Subsequent Plan of Care Date: 12/29/2015
+Dye, David M, PT - 12/15/2015 13:37
+(As Of: 12/15/2015 14:20:22 EST)
+
+Problems(Active)
+
+H/O: stroke (SNOMED CT Name of Problem: H/O: stroke : Confirmation: Confirmed :
+
+2476091017 ) Classification: Medical : Code: 2476091017 : Last Updated:
+03/14/2014 04:18 : Life Cycle Status: Active : Vocabulary:
+SNOMED CT
+
+Diagnoses(Active)
+
+Acute spontaneous Date: 12/12/2015 : Diagnosis Type: Working : Confirmation:
+
+intraparenchymal intracranial ï Confirmed : Clinical Dx: Acute spontaneous intraparenchymal
+
+hemorrhage intracranial hemorrhage : C/assification: Medical : Clinical
+
+Service: Non-Specified : Code: |\CD-10-CM : Probability: 0:
+Diagnosis Code: \62.9
+
+Completed Action List:
+
+* VERIFY by Dye, David M, PT on 15 December 2015 13:37
+* Sign by Dye, David M, PT on 15 December 2015 13:37
+
+* Perform by Dye, David M, PT on 15 December 2015 13:37
+
+Printed by: Sharts, Jennifer K, RN Page 5 of 5
+Printed on: 12/16/15 10:03 (End of Report)
+Physical Therapy Treatment Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: Physical Therapy Treatment
+
+Document Subject: PT Treatment Note IP
+
+Performed By: Dye, David M, PT on 15 December 2015 14:42
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+
+PT Treatment Note IP Entered On: 12/15/2015 14:42
+Performed On: 12/15/2015 14:42 by Dye, David M, PT
+
+Assessment and Plan IP
+
+/mpairments : Balance Deficit, Bed Mobility Deficit, Coordination Deficit, Fall Risk, Gait Deficit, Strength Deficit,
+Transfer Deficit
+
+Treating Diagnosis : Difficulty Walking, Hemiplegia & Hemiparesis Unspecified Side
+
+Assessment/Rationale for Skilled PT :
+
+Pt up in chair ~ 1 hour. RN requested clinician assistance to return pt to bed. He required Total Assist. Activity
+tolerated. Continue PT per POC.
+
+Disposition Recommendations : Acute Rehabilitation Facility
+Dye, David M, PT - 12/15/2015 14:42
+Treatment
+Charting For: Treatment Note
+Patient Location: Room 223 ICU
+Subjective Information: wanting to get back to bed
+
+Pain Reported: Patient reporting no pain
+Therapeutic Activities : Therapeutic Activities Performed
+Dye, David M, PT - 12/15/2015 14:42
+Safety Measures
+Bed in Lowest Position: Yes
+Bed Locked. Yes
+Bed Brakes On: Yes
+Call Light Within Reach: Yes
+Fall Alert Slippers On: Yes
+Fall Monitor Alarms On: Yes
+Side Rails Up: Yes
+| Dye, David M, PT - 12/15/2015 14:42
+Activity Recommendations/Splint Schedule
+Pt Safe to Transfer w Nursing. Yes
+(Comment: pivot with assist of 2 or use mechanical lift [Dye, David M, PT - 12/15/2015 14:42 ] )
+Dye, David M, PT - 12/15/2015 14:42
+Cognition
+Level of Consciousness : Alert
+Orientation: Oriented x 3, Aware of Situation, Able to Follow Commands
+Dye, David M, PT - 12/15/2015 14:42
+Vital Signs
+Continuous Monitoring: Yes
+
+Printed by: Sharts, Jennifer K, RN Page 1 of 3
+Printed on: 12/16/15 10:03 (Continued)
+Physical Therapy Treatment Elston, Kyle R - 73207092
+
+* Final Report *
+
+Stable No Acute Distress : Yes
+Oxygen Delivery : Room air
+
+. ) Dye, David M, PT - 12/15/2015 14:42
+Skin Integrity
+Braden Score Review: Patient's Braden/Braden Q Score currently does not place them at risk for pressure ulcer
+development
+Skin Integrity/Edema Comments : no change from previous obs
+
+Dye, David M, PT - 12/15/2015 14:42
+Therapeutic Activities
+F
+
+Sit, Chair to Bed
+
+Dye, David M, PT
+- 12/15/2015
+14:42
+
+Procedures
+Therapeutic Activity 15 Min: 1
+Dye, David M, PT - 12/15/2015 14:42
+Statistics
+Statistics Inpatient: \P Return Visit
+Treatment Time: 15 Minutes
+Total Time. 15 Minutes
+PT Onset Date: 12/12/2015
+PT Physician Referral Date: 12/15/2015
+PT Evaluation Date: 12/15/2015
+PT Subsequent Plan of Care Date: 12/29/2015
+Dye, David M, PT - 12/15/2015 14:42
+(As Of: 12/15/2015 14:46:28 EST)
+
+Problems(Active)
+
+H/O: stroke (SNOMED CT Name of Problem: H/O: stroke : Confirmation: Confirmed :
+
+72476091017 ) Classification: Medical: Code: 2476091017 : Last Updated:
+03/14/2014 04:18 : Life Cycle Status: Active : Vocabulary:
+SNOMED CT
+
+Diagnoses(Active)
+
+Acute spontaneous Date: 12/12/2015 : Diagnosis Type: Working : Confirmation:
+
+intraparenchymal intracranial Confirmed : C/inica/ Dx: Acute spontaneous intraparenchymal
+
+hemorrhage intracranial hemorrhage : C/ass/fication: Medical : Clinical
+
+Service: Non-Specified : Code: |CD-10-CM : Probability: 0 :
+
+Printed by: Sharts, Jennifer K, RN Page 2 of 3
+Printed on: 12/16/15 10:03 (Continued)
+Occupational Therapy Treatment Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: Occupational Therapy Treatment
+
+Document Subject: OT Treatment
+
+Performed By: Hernandez, Pearl on 15 December 2015 16:29
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+
+OT Treatment Entered On: 12/15/2015 16:37
+Performed On: 12/15/2015 16:29 by Hernandez, Pearl
+
+Assessment and Plan
+
+Patient Location: 225
+
+Charting For: Treatment Note
+
+/mpairments/Limitations : Activity Tolerance Deficits, Balance Deficits, Impaired ADL/IADL Skills, Impaired
+functional mobility, Strength Deficits, Transfer Deficits
+
+Treating Diagnosis :_ \Weakness/Disuse Atrophy
+
+Rehabilitation Potential: Good
+
+Barriers to Safe Discharge : Complicated Medical History, Medical Diagnosis, Past Medical History, Severity of
+Deficits
+
+Assessment Comments : This patient was seen in the PM for therapuetic activity services. Transfer from the
+recliner to the bed. At this time, patient requires 100% assistance for the transfer. Patient's feet were in limited
+weight bearing contact with the floor surface for the transfer. Patient is cooperative with the process.
+
+Hernandez, Pearl - 12/15/2015 16:29
+Recommendations
+Disposition Recommendations : Acute Rehabilitation Facility
+
+Hernandez, Pearl - 12/15/2015 16:29
+History
+Preferred Name: Kyle
+Patient Precautions : Aspiration Precautions, Fall Precautions
+
+Hernandez, Pearl - 12/15/2015 16:29
+Weight Bearing Precautions
+Left VE: Full WB
+Right VE: Full WB
+LeftLE: Full WB
+RightLE: Full WB
+
+Hernandez, Pearl - 12/15/2015 16:29
+Pertinent Medical History/Hospital Course : see EMR
+
+Hernandez, Pearl - 12/15/2015 16:29
+Treatments
+Separate/Distinct Intervention Seg OT
+
+Interventions : Therapeutic
+
+Activities
+Hernandez, Pearl
+
+Printed by: Sharts, Jennifer K, RN Page 1 of 3
+Printed on: 12/16/15 10:03 (Continued)
+Occupational Therapy Treatment Elston, Kyle R - 73207092
+
+* Final Report *
+
+- 12/15/2015
+= _ 16:29
+
+Funct Mobility/Transfers/Wheelchair Use : Funct Mobility/Transfers/Wheelchair Use Performed
+Hernandez, Pearl - 12/15/2015 16:29
+Activity Recommendations
+Patient appropriate for bedside ADLs : Yes
+Patient to be up in chair 2x/day : Yes
+Recommend transfer with Assist of 2: Yes
+(Comment: dep transfer [Hernandez, Pearl - 12/15/2015 16:29 } )
+Hernandez, Pearl - 12/15/2015 16:29
+Safety Measures
+Bed in Lowest Position: Yes
+Bed Locked/Low Position: Yes
+Bed Brakes On. Yes
+Call Light Within Reach: Yes
+Cardiac Alarms On: Yes
+Alarms On/Limits Set: Yes
+Fall Alert Slippers On. Yes
+Fall Monitor Alarms On: Yes
+Parent or significant other at bedside: Yes
+Hernandez, Pearl - 12/15/2015 16:29
+Funct Mobility/Transfers/Wheelchair Use
+Functional Mobility Tx
+
+Action: Patient
+demonstrated
+
+Sit to Supine
+with Total assist
+
+Qualifier : to increase
+independence
+with self care
+
+Hernandez, Pearl
+16:29
+
+Transfers Tx
+ction:
+
+A Patient
+demonstrated
+transfer
+
+Description #1 :
+Description #2 :
+with Total assist
+
+Qualifier : to increase
+independence
+with self care
+
+Hernandez, Pearl
+- 12/15/2015
+
+ï
+
+eed
+
+Printed by: Sharts, Jennifer K, RN Page 2 of 3
+Printed on: 12/16/15 10:03 (Continued)
+Occupational Therapy Treatment Elston, Kyle R - 73207092
+
+* Final Report *
+
+| | 16:29 |
+
+OT Education
+Individuals to be taught: Patient, Daughter
+Barriers to Learning: Acuity of illness
+Caregiver Barriers to Learning: None Evident
+Readiness to Learn: Communicates Readiness
+Miscellaneous Topics : OT Goals, Rehab placement information, Role of OT
+Hernandez, Pearl - 12/15/2015 16:29
+Procedures
+Therapeutic Activities 15 Min: 1
+Hernandez, Pearl - 12/15/2015 16:29
+Statistics
+Statistics Inpatient: \npatient Visit
+Treatment Time: 15 Minutes
+Total Time: 15 Minutes
+OT Onset Date: 12/12/2015
+OT Physician Referral Date: 12/15/2015
+OT Evaluation Date: 12/15/2015
+OT Subsequent Plan of Care Date: 12/28/2015
+Hernandez, Pearl - 12/15/2015 16:29
+(As Of: 12/15/2015 16:37:24 EST)
+
+Problems(Active)
+
+H/O: stroke (SNOMED CT Name of Problem: H/O: stroke : Confirmation: Confirmed :
+
+:2476091017 ) Classification: Medical : Code: 2476091017 : Last Updated:
+03/14/2014 04:18 : Life Cycle Status: Active : Vocabulary:
+SNOMED CT
+
+Diagnoses(Active)
+
+Acute spontaneous Date: 12/12/2015 : Diagnosis Type: Working : Confirmation:
+
+intraparenchymal intracranial ï Confirmed : Clinical Dx: Acute spontaneous intraparenchymal
+
+hemorrhage intracranial hemorrhage : C/assification: Medical : C/inical
+
+Service: Non-Specified : Code: |CD-10-CM : Probability. 0:
+Diagnosis Code: \62.9
+
+Completed Action List:
+
+* VERIFY by Hernandez, Pearl on 15 December 2015 16:29
+* Sign by Hernandez, Pearl on 15 December 2015 16:29
+
+* Perform by Hernandez, Pearl on 15 December 2015 16:29
+
+Printed by: Sharts, Jennifer K, RN Page 3 of 3
+Printed on: 12/16/15 10:03 (End of Report)
+IP-Neurosurgery Staff Progress Note Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: \P-Neurosurgery Staff Progress Note
+
+Document Subject: Progress Note
+
+Performed By: Gehring, Randy L, MD on 16 December 2015 06:56
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+Progress Note
+
+Patient: Elston, Kyle R MRN: 73207092 FIN: 000420153496
+Age: 35 years Sex: Male DOB: 11/13/80
+
+Associated Diagnoses: None
+
+Author: Gehring, Randy L, MD
+
+Subjective
+No c/o.Wants to get going with rehab efforts.
+
+Objective
+Active Inpatient Meds
+Active Scheduled Inpatient Medications
+
+amphetamine-dextroamphetamine (Adderall) (Adderall XR), Cap, Slow Rel, 10 mg, Orally, QAM, Start: 12/13/15 09:00:00
+
+dexamethasone (Decadron), Injection, 4 mg, IV Push, Q12H, Start: 12/16/15 07:00:00
+leveTlIRACetam, 500 mg, IVPB, Q12H, Start: 12/14/15 22:00:00
+levothyroxine, Tablet, 50 mCg, Orally, Daily, Start: 12/13/15 06:00:00
+
+pantoprazole (pantoprazole 40 mg oral delayed release tablet), Tab, Enteric Coat, 40 mg, Orally, Daily, Start: 12/13/15
+
+09:00:00
+polyethylene glycol 3350, Powder, 17 GM, Orally, Daily, Start: 12/15/15 09:00:00
+Sodium Chloride 0.9% PREMIX + Potassium Chloride PREMIX IV 100 mL/hr
+
+One-Time Medications Given 12/15/15 00:00:00 TO 12/16/15 06:53:27
+None Reported
+
+PRN Medications (0600 - 0559) from 12/15 - 12/16
+
+ALprazoLAM, 1 mg, Orally, QHS, 0 Dose(s)
+
+acetaminophen, 650 mg, Orally, Q4H, 0 Dose(s)
+
+bisacodyl, 10 mg, Orally, Daily, 0 Dose(s)
+
+bisacodyl, 10 mg, Rectally, Unscheduled, 0 Dose(s)
+
+fluticasone nasal, Nostrils, Both, Daily, 0 Dose(s)
+hydroCODONE-acetaminophen, 2 Tablet, Orally, Q4H, 1 Dose(s)
+magnesium citrate, 300 mL, Orally, Unscheduled, 0 Dose(s)
+magnesium hydroxide, 30 mL, Orally, Unscheduled, 0 Dose(s)
+ondansetron, 8 mg, IV Push, Q6H, 0 Dose(s)
+
+sodium biphosphate-sodium phosphate, 133 mL, Rectally, Daily,O Dose(s)
+
+Vital Signs (most recent and range for last 24 hours)
+
+Temp (CEL) 36.7 (36.7-37.0) Temp (FAHR) 98.1 (98.1-98.6), BP 156/95 (138-161)/(84-103), ABP 167/85 (167-177)/(82-90),
+
+Printed by: Sharts, Jennifer K, RN
+Printed on: 12/16/15 10:04
+
+Page 1 of 2
+(Continued)
+|P-Neurosurgery Staff Progress Note Elston, Kyle R - 73207092
+* Final Report *
+
+HR 75 (58-78), RR 16 (10-78), O2Sat 94 (92-94)
+
+Neurologic (most recent and range for last 24 hours)
+GCS 15(13-15)
+
+Physical Examination
+Respiratory: Respirations are non-labored.
+Gastrointestinal: Soft, Non-tender.
+Neurologic: Alert, Oriented, Old spastic L paresis,min facial movement.
+
+Results Review
+
+Labs ï Last 24 Hrs SELECT Labs ONLY
+12/16/15 04:46
+133L(Na) 100(Cl) 18(BUN)
+
+ïïï|ïïï |ïïï<r24n(eu)
+4.0(K)  27(CO2) ï0.61L(Cr)
+
+Ca 8.8 12/16/15 04:46
+
+Impression and Plan
+
+POD#2 _1)Swallow eval in progress with Sp Th,SBFT in place with feedings started 2)PT/OT with prob IPD
+Rehab 3)Insomnia-decrease decadron,increase xanax 4)dc foley
+
+Signature Line
+
+ee ee See ft et eS ES SS SS Se th er et te tt tt sh et re St me et ee A
+
+Routed for Review and/or Corrected By:
+
+Completed Action List:
+
+* Perform by Gehring, Randy L, MD on 16 December 2015 06:56
+* Sign by Gehring, Randy L, MD on 16 December 2015 06:56
+
+* VERIFY by Gehring, Randy L, MD on 16 December 2015 06:56
+
+Printed by: Sharts, Jennifer K, RN Page 2 of 2
+Printed on: 12/16/15 10:04 (End of Report)
+Occupational Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+Document Type: Occupational Therapy Evaluation
+
+Document Subject: OT Evaluation and Treatment
+
+Performed By: Hernandez, Pearl on 15 December 2015 13:45
+Encounter Info: 000420153496, IUH Arnett Hospital, Inpatient, 12/12/15 
+* Final Report *
+Document Has Been Updated
+
+OT Evaluation and Treatment Entered On: 12/15/2015 14:19
+Performed On: 12/15/2015 13:00 by Hernandez, Pearl
+
+Assessment and Plan
+Patient Location: 225
+/mpairments/Limitations : Activity Tolerance Deficits, Balance Deficits, Coordination Deficits, Impaired ADL/IADL
+Skills, Impaired functional mobility, Range of Motion Deficits, Strength Deficits, Transfer Deficits
+Treating Diagnosis : \Weakness/Disuse Atrophy
+Rehabilitation Potential: Good
+Barriers to Safe Discharge : Complicated Medical History, Insight into Deficits, Medical Diagnosis, Severity of
+Deficits
+
+Hernandez, Pearl - 12/15/2015 13:45
+Assessment Comments : This is a 35 year old male who was admitted to the hospital due to right temporal lobe
+intracranial hemorrage, and subsequently having temporal craniotomy for hematoma and probable tumor.
+Premorbidly, Patient was indep with all ADLs and IADLs and was ambulating on occasion with a cane. Currently
+patient is demonstrating poor overall motorical skills with balance, transfers, ADLs and overall mobility skills. This
+patient would benefit from additional OTtreatment services is recommended in house and at a ACUTE placement to
+promote his ADLs and performance skills.
+
+Hernandez, Pearl - 12/15/2015 16:26
+
+.
+i) ï
+ï
+.
+i)
+>
+>
+2
+.
+LJ
+&
+1)
+ï
+LD
+>
+ï
+.
+L)
+La
+ï
+ï
+LJ
+
+Frequency: 5 Times a Week
+Duration: 2
+Duration Unit: Weeks
+Interventions : ADLs/IADLs, Balance, Functional Cognition Skills, Functional Mobility, Neuromuscular
+Re-education, Therapeutic Activity, Therapeutic exercise
+Pt/Caregiver Involved in Goal Setting & Tx Plan. Yes
+Patient/Caregiver Goals : "| need to get better"
+Hernandez, Pearl - 12/15/2015 13:45
+Recommendations
+Disposition Recommendations : Acute Rehabilitation Facility
+Hernandez, Pearl - 12/15/2015 13:45
+History
+
+Printed by: Sharts, Jennifer K, RN Page 1 of 8
+Printed on: 12/16/15 10:03 (Continued)
+Occupational Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+Referring Physician: Gehring, Randy L, MD
+Medical Diagnosis : right temporal lobe intracranial hemorrage, and subsequently having temporal craniotomy for
+hematoma and probable tumor . |
+Onset Date: 12/12/2015
+Patient Precautions : Aspiration Precautions, Fall Precautions
+Hernandez, Pearl - 12/15/2015 13:45
+Weight Bearing Precautions
+LeftUE.: Full WB
+Right VE: Full WB
+LeftLE.: Full WB
+RightLE.: Full WB
+Hernandez, Pearl - 12/15/2015 13:45
+Information Given By (Patient History): Patient, Medical Record
+Special Consideration : Parent/Family Present
+Home Environment: Yes
+Home Equipment: Yes
+
+Sensory Systems (PLOF)
+
+Vision: Functional
+Auditory: Functional
+Vestibular : Functional
+Tactile : Functional
+Gustatory : Functional!
+Olfactory : Functional
+
+ADLs (PLOF)
+Feeding: \ndependent
+
+Grooming : \ndependent
+Bathing: \ndependent
+Dressing: \ndependent
+Toileting : \ndependent
+
+Bed Mobility: \ndependent
+Transfers : \ndependent
+Functional Mobility: \ndependent
+
+IADLs (PLOF)
+
+Financial Management : \ndependent
+
+Hobbies/Play : \ndependent
+
+Home Management: \ndependent
+
+Laundry Managment: \ndependent
+
+Meal Management: \ndependent
+
+Medical Management: \ndependent
+
+Shopping : \ndependent
+
+Transportation : \ndependent
+
+Yard Work: \ndependent
+
+Employment: \ndependent
+
+(Comment: Works at a local orthopedic facility [Hernandez, Pearl - 12/15/2015 13:45 ] )
+Hernandez, Pearl - 12/15/2015 13:45
+
+Hernandez, Pearl - 12/15/2015 13:45
+
+Hernandez, Pearl - 12/15/2015 13:45
+
+Hernandez, Pearl - 12/15/2015 13:45
+
+Printed by: Sharts, Jennifer K, RN Page 2 of 8
+Printed on: 12/16/15 10:03 (Continued)
+Occupational Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+Home Environment
+Living Situation 7: Lives with Spouse, Lives with Minor Children
+Support System 7: Spouse/Significant Other, Parent, Relative, Adult Child
+Residence 7. House
+Residence 7 Levels: 2
+Hernandez, Pearl - 12/15/2015 13:45
+
+Stairs Residence 1
+a Inside Stairs L Outside Stairs 1
+
+Handrails Present Unilateral
+
+Goninient
+13:45 } )
+
+re ee Pearl} Hernandez, Pear!
+- 12/15/2015 ~ 12/15/2015
+13:45 13:45
+
+(Comment: LOM
+[Hernandez, Pearl
+- 12/15/2015
+
+Home Equipment
+Rehab Home Equipment
+Cane - Standard: Owns, Uses
+
+Hernandez, Pearl - 12/15/2015 13:45
+Orthotics
+Ankle-Foot Orthosis: Left
+
+Hernandez, Pearl - 12/15/2015 13:45
+System Review
+Pain Reported : Patient displays no signs of pain/discomfort
+Continuous Monitoring: Yes
+Oxygen Delivery : Room air
+
+Hernandez, Pearl - 12/15/2015 13:45
+Skin Integrity
+Braden Score Review: Patient's Braden/Braden Q Score currently does not place them at risk for pressure ulcer
+development
+
+Hernandez, Pearl - 12/15/2015 13:45
+Evaluation
+Level of Consciousness : A\ert
+Orientation: Oriented x 3, Aware of Situation, Able to Follow Commands
+
+Hernandez, Pearl - 12/15/2015 13:45
+Ability to follow commands
+Requires Cueing : 0-25% of Time
+Follows Simple Commands : 50-75% of Time
+Follows Multi-Step Commands : 0-25% of Time
+
+Hernandez, Pearl - 12/15/2015 13:45
+Safety Awareness : (Fair) performs activity with frequent verbal or manual cues to complete activity
+
+Hernandez, Pearl - 12/15/2015 13:45
+
+Printed by: Sharts, Jennifer K, RN Page 3 of 8
+Printed on: 12/16/15 10:03 (Continued)
+Occupational Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+Other Cognition
+Attention Span/Concentration : Functional
+
+JudgementInsight : Functional
+Adjustment to Limitations : Functional
+Communication Status : Functional
+Emotional Status : Functional
+Hernandez, Pearl - 12/15/2015 13:45
+Upper Extremity Function
+Left Upper Extremity ROM: \mpaired
+Right Upper Extremity ROM: WFL
+Left Hand ROM: \mpaired
+Right Hand ROM: \WFL
+Left Upper Extremity Strength : \mpaired
+Right Upper Extremity Strength: WFL
+(Comment: 3+/5 [Hernandez, Pearl - 12/15/2015 13:45 ] )
+Left Grip Strength: \mpaired
+Right Grip Strength: FL
+(Comment: 3+/5 [Hernandez, Pearl - 12/15/2015 13:45 ] )
+Hernandez, Pearl - 12/15/2015 13:45
+OT Coordination
+Opposition: Left Impaired, Right Intact
+Finger to Nose: Left Impaired, Right Intact
+Object Manipulation: Left Impaired, Right Intact
+Grasp. Left Impaired, Right Intact
+
+Neurological/Sensory
+
+Muscle Tone: \mpaired
+
+(Comment: LUE inpaired [Hernandez, Pearl - 12/15/2015 13:45 ] )
+Motor Contro/: \mpaired
+
+(Comment: LUE inpaired [Hernandez, Pearl - 12/15/2015 13:45 ] )
+Visual/Perceptual : \mpaired
+
+Tactile: \mpaired
+
+(Comment: LUE inpaired [Hernandez, Pearl - 12/15/2015 13:45 ] )
+Auditory : \mpaired
+
+Hernandez, Pearl - 12/15/2015 13:45
+
+Hernandez, Pearl - 12/15/2015 13:45
+Sitting Posture: Forward Head
+Standing Posture : Forward Head
+Static Sitting Balance: Poor + Patient requires min assistance (performs 75% of the effort) to maintain static
+position
+Dynamic Sitting Balance: Poor- Patient requires max assistance (performs 25%-49% of the effort) to move from
+midline and/or right his/herself
+Static Standing Balance: Poor Patient requires mod assistance (performs 50%-74% of the effort) to maintain
+static position
+Dynamic Standing Balance: Poor - Patient requires max assistance (performs 25%-49% of the effort) to move
+from midline and/or right his/herself
+
+Hernandez, Pearl - 12/15/2015 13:45
+
+Functional Mobility OT
+Rolling Left: Minimal Assist
+
+Printed by: Sharts, Jennifer K, RN Page 4 of 8
+Printed on: 12/16/15 10:03 (Continued)
+Occupational Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+Rolling Right. Minimal Assist
+Supine to Sit: Minimal Assist
+Sit to Supine: Minimal Assist:
+Sit to Stand: Maximum Assist
+Stand to Sit: Maximum Assist
+
+Hernandez, Pearl - 12/15/2015 13:45
+Transfers: Bed, Chair, Wheelchair: Maximal Assistance-The patient performs 25% to 49% of task
+Transfers: Toilet: Maximal Assistance-The patient performs 25% to 49% of task
+Feeding: Supervision or Setup-The patient requires supervision (eg., standing by, cueing, or coaxing) or setup
+(application of orthoses or assistive/adaptive devices)ï or another person is required to open containers, butter
+bread, cut meat, or pour liquids
+Grooming : Minimal Assistance-The patient performs 75% or more of task
+Bathing: Total Assistance - The patient performs less than 25% of task
+Dressing Upper Body: Maximal Assistance-The patient performs 25% to 49% of task
+Dressing Lower Body: Total Assistance - The patient performs less than 25% of task
+Toileting : Maximal Assistance-The patient performs 25% to 49% of task
+Sitting Activity Tolerance : Fair- (Comfortable at rest. Tolerates non-resistive activity for short durations (5-10
+minutes) with frequent rest breaks and/or longer time to complete task)
+Standing Activity Tolerance : Poor - (Fatigue, palpitations, dyspnea, or pain present at rest if physical activity (for
+less than 1 minute) is undertaken distress is increased)
+
+Hernandez, Pearl - 12/15/2015 13:45
+Short Term Goals
+Target Date: 12/28/2015
+
+Hernandez, Pearl - 12/15/2015 13:45
+ADLs Goals
+
+demonstrate demonstrate demonstrate
+
+Dressing Dressing
+Level. with with Minimal with Minimal
+Up
+Qualifier : to increase to increase to increase
+ïme independence independence] ~~ independence
+with self care with self care with self care
+
+Hernandez, Pearl] Hernandez, Pearl| Hernandez, Pearl
+- 12/15/2015 - 12/15/2015 - 12/15/2015
+13:45 13:45 13:45
+Functional M
+
+obility G
+12/16/2015 12/16/2015
+
+Action . Patient will Patient will
+demonstrate demonstrate
+Supine to Sit Sit to Stand
+
+with Moderate
+
+Printed by: Sharts, Jennifer K, RN Page 5 of 8
+Printed on: 12/16/15 10:03 (Continued)
+Occupational Therapy Evaluation
+
+* Final Report *
+
+assist
+
+Supervision/Set
+Up
+
+Qualifier : to increase to increase
+independence independence
+with self care with self care
+
+Hernandez, Pearl} Hernandez, Pearl
+- 12/15/2015 - 12/15/2015
+13:45 13:45
+
+Transfers Goals
+
+Action: Patient will
+nit demonstrate
+
+transfer
+
+commode
+with Moderate
+assist
+Qualifier : to increase
+independence
+
+nll with self care
+[Goal Status: | _ïïs New |
+
+Hernandez, Pearl
+- 12/15/2015
+13:45
+
+Strenath/ROM Goals
+ate:
+
+12/16/2015
+
+Action: Patient will
+increase
+
+Strength
+
+Strength Measure to 4/5
+
+Functional to increase safety
+
+Qualilfier : during functional
+activity
+
+Goal Status ï
+
+Hernandez, Pearl
+- 12/15/2015
+13:45
+
+Balance - Static Goals
+
+12/16/2015
+
+Activity Level : Patient will
+
+Printed by: Sharts, Jennifer K, RN
+Printed on: 12/16/15 10:03
+
+Elston, Kyle R - 73207092
+
+Page 6 of 8
+(Continued)
+Occupational Therapy Evaluation
+
+* Final Report *
+
+maintain static
+position with use
+of at least one]
+upper extremity
+support (Fair 
+Qualifier : to increase static
+sitting balance
+
+Functional to increase
+Qualifier : independence
+with ADLs
+
+Goal Status :
+
+Hernandez, Pearl
+- 12/15/2015
+13:45
+
+Treatments
+
+Hernandez, Pearl
+- 12/15/2015
+13:45
+
+Activity Recommendations
+
+Patient appropriate for bedside ADLs : Yes
+
+Patient appropriate for bedside commode: Yes
+Patient needs set up for feeding: Yes
+
+Patient to be up in chair 2x/day: Yes
+
+Patient Safe to transfer with nursing. Yes
+
+(Comment: 2A [Hernandez, Pearl - 12/15/2015 13:45 ] )
+Recommend transfer with Assist of 2: Yes
+
+Safety Measures
+Call Light Within Reach: Yes
+
+Cardiac Alarms On: Yes
+
+Alarms On/Limits Set: Yes
+
+Fall Alert Slippers On: Yes
+
+Fall Monitor Alarms On: Yes
+
+Parent or significant other at bedside: Yes
+Patient Left in Chair: Yes
+
+OT Education
+
+Individuals to be taught: Patient, Mother
+Barriers to Learning: Acuity of illness
+Caregiver Barriers to Learning: None Evident
+Readiness to Learn: Communicates Readiness
+
+Printed by: Sharts, Jennifer K, RN
+Printed on: 12/16/15 10:03
+
+Elston, Kyle R - 73207092
+
+Hernandez, Pearl - 12/15/2015 13:45
+
+Hernandez, Pearl - 12/15/2015 13:45
+
+Page 7 of 8
+(Continued)
+Occupational Therapy Evaluation Elston, Kyle R - 73207092
+
+* Final Report *
+
+Miscellaneous Topics : OT Goals, Rehab placement information, Role of OT
+Hernandez, Pearl - 12/15/2015 13:45
+Procedures ) | _
+Evaluation : OT Extended
+Hernandez, Pearl - 12/15/2015 13:45
+OT Statistics
+Eval Time: 60 Minutes
+Statistics Inpatient: \npatient Visit
+Total Time: 60 Minutes
+OT Evaluation Complete: Yes
+OT Onset Date: 12/12/2015
+OT Physician Referral Date: 12/15/2015
+OT Evaluation Date: 12/15/2015
+OT Subsequent Plan of Care Date: 12/28/2015
+Hernandez, Pearl - 12/15/2015 13:45
+(As Of: 12/15/2015 14:19:27 EST)
+
+Problems(Active)
+
+H/O: stroke (SNOMED CT Name of Problem: H/O: stroke : Confirmation: Confirmed :
+
+72476091017 ) Classification: Medical : Code: 2476091017 : Last Updated:
+03/14/2014 04:18 : Life Cycle Status: Active : Vocabulary:
+SNOMED CT
+
+Diagnoses(Active)
+
+Acute spontaneous Date: 12/12/2015 : Diagnosis Type: Working : Confirmation:
+
+intraparenchymal Intracranial Confirmed: C/inica/ Dx: Acute spontaneous intraparenchymal
+
+hemorrhage intracranial hemorrhage : Classification: Medical : Clinical
+
+Service: Non-Specified : Code: |CD-10-CM : Probability: 0:
+Diagnosis Code: \62.9
+
+Completed Action List:
+
+* VERIFY by Hernandez, Pearl on 15 December 2015 13:45
+* Sign by Hernandez, Pearl on 15 December 2015 13:45
+
+* Perform by Hernandez, Pearl on 15 December 2015 13:45
+* Sign by Hernandez, Pearl on 15 December 2015 16:26
+
+* Modify by Hernandez, Pearl on 15 December 2015 16:26
+
+Printed by: Sharts, Jennifer K, RN Page 8 of 8
+Printed on: 12/16/15 10:03 (End of Report)
+

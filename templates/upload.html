@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Bootstrap 5 Admin &amp; Dashboard Template">
+	<meta name="author" content="Bootlab">
+
+	<title>InManage - Inpatient Rehabilitation Management</title>
+
+	<link rel="canonical" href="https://appstack.bootlab.io/dashboard-default.html" />
+	<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+	<!-- Choose your prefered color scheme -->
+	<link href="{% static 'css/light.css' %}" rel="stylesheet">
+	<!-- <link href="css/dark.css" rel="stylesheet"> -->
+
+</head>
+
+<body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
+	<div class="wrapper">
+	{% include 'navbar.html' %}
+		<div class="main">
+			{% include 'header.html' %}
+			<main class="content">
+				<div class="container-fluid p-0">
+					<div class="col-sm-6 col-lg-12 col-xxl-6 d-flex">
+						<div class="card flex-fill">
+							<div class="card-body">
+							<h1 class="h1 d-inline-block mt-1 mb-4">Upload Patient Record</h1>
+								<form method="post" enctype="multipart/form-data">
+									{% csrf_token %}
+									<label class="form-label"><strong>Patient Record (Must be .pdf format)<strong></label>
+									<div>
+										<input type="file" name="patientfile">
+									</div>
+									<hr>
+									<button type="submit" class="btn btn-primary" name="runscript">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			{% include 'footer.html' %}
+		</div>
+	</div>
+	
+	<script src="{% static 'js/app.js' %}"></script>
+
+	<script>
+	$(document).ready(function(){
+
+	$("#b1").click(function(){
+
+	$.ajax({
+
+	method: "GET",
+
+	url: "type your python script path here",
+
+	data: {"place" : value},
+
+	dataType: "text",
+
+	success: function(result){
+
+	var data=JSON.parse(result);
+
+	console.log(result);
+
+	}
+
+	});
+
+	});
+	</script>
+
+</body>
+
+</html>

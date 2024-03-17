@@ -1,0 +1,3148 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Bootstrap 5 Admin &amp; Dashboard Template">
+	<meta name="author" content="Bootlab">
+
+	<title>InManage - Inpatient Rehabilitation Management</title>
+
+	<link rel="canonical" href="https://appstack.bootlab.io/dashboard-default.html" />
+	<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+	<!-- Choose your prefered color scheme -->
+	<link href="{% static 'css/light.css' %}" rel="stylesheet">
+	<!-- <link href="css/dark.css" rel="stylesheet"> -->
+
+</head>
+
+<body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
+	<div class="wrapper">
+	{% include 'navbar.html' %}
+		<div class="main">
+			{% include 'header.html' %}
+			<main class="content">
+				<div class="container-fluid p-0">
+				<div class="col-sm-6 col-lg-12 col-xxl-6 d-flex">
+							<div class="card flex-fill">
+								<div class="card-body">
+									<div class="row">
+									<h1 class="h1 d-inline-block mt-1 mb-4">ELSTON, KYLE R.</h1>
+										<div class="col mt-0">
+											<h4 class="card">DIAGNOSIS: INTRACRANIAL HEMORRHAGE</h4>
+											<h4 class="card">SEX: MALE</h4>
+											<h4 class="card">AGE: 35 YRS</h4>
+											<h4 class="card">DOB: 11/3/1980</h4>
+										</div>
+
+										<div class="col-auto">
+											<img alt="Patient Picture" src="{% static 'img/avatars/avatar.png' %}" class="rounded-circle img-responsive mt-2" width="128" height="128" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<div class="row">
+						
+					<div class="col-md-3 col-xl-2">
+
+						<div class="card">
+							<div class="card-header">
+								<h5 class="card-title mb-0">Tabs</h5>
+							</div>
+
+							<div class="list-group list-group-flush" role="tablist">
+								<a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#summary" role="tab">
+								  Summary
+								</a>
+								<a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#patientinfo" role="tab">
+								  Patient Information
+								</a>
+								<a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#hp" role="tab">
+								  H&P
+								</a>
+								<a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#physical" role="tab">
+								  Physical Therapy
+								</a>
+								<a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#occupational" role="tab">
+								  Occupational Therapy
+								</a>
+								<a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#speech" role="tab">
+								  Speech Therapy
+								</a>
+								<a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#progress" role="tab">
+								  Progress Notes
+								</a>
+								<a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#nutrition" role="tab">
+								  Nutrition Services
+								</a>
+								<a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#notes" role="tab">
+								  Notes
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-9 col-xl-10">
+						<div class="tab-content">
+							<div class="tab-pane fade show active" id="summary" role="tabpanel">
+								<div class="card">
+									<div class="tab tab-primary">
+										<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item"><a class="nav-link active" href="#tab-1" data-bs-toggle="tab" role="tab">Patient Info</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-2" data-bs-toggle="tab" role="tab">Doctor Info</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-3" data-bs-toggle="tab" role="tab">Admitting Diagnosis</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-4" data-bs-toggle="tab" role="tab">Nearest Relative Info</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-5" data-bs-toggle="tab" role="tab">Insurance</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-6" data-bs-toggle="tab" role="tab">H&P</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-7" data-bs-toggle="tab" role="tab">Physical Therapy</a></li>
+										</ul>
+										
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab-1" role="tabpanel">
+												<h4 class="tab-title">Patient Information</h4>
+												<p>Patient Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Sex<input type="text" class="form-control" placeholder=""></p>
+												<p>Age<input type="text" class="form-control" placeholder=""></p>
+												<p>Date of Birth<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Address Line 1<input type="text" class="form-control" placeholder=""></p>
+												<p>Address Line 2<input type="text" class="form-control" placeholder=""></p>
+												<p>City<input type="text" class="form-control" placeholder=""></p>
+												<p>County<input type="text" class="form-control" placeholder=""></p>
+												<p>ST<input type="text" class="form-control" placeholder=""></p>
+												<p>Zip<input type="text" class="form-control" placeholder=""></p>
+												<p>Country<input type="text" class="form-control" placeholder=""></p>
+												<p>Home Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Work Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+											</div>
+											<div class="tab-pane" id="tab-2" role="tabpanel">
+												<h4 class="tab-title">Doctor Information</h4>
+												<p>Referring MD<input type="text" class="form-control" placeholder=""></p>
+												<p>Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Fax<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-3" role="tabpanel">
+												<h4 class="tab-title">Admitting Diagnosis</h4>
+												<p>Diagnosis Code<input type="text" class="form-control" placeholder=""></p>
+												<p>Chief Complaint<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-4" role="tabpanel">
+												<h4 class="tab-title">Nearest Relative Information</h4>
+												<p>Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Relation<input type="text" class="form-control" placeholder=""></p>
+												<p>Address<input type="text" class="form-control" placeholder=""></p>
+												<p>City<input type="text" class="form-control" placeholder=""></p>
+												<p>ST<input type="text" class="form-control" placeholder=""></p>
+												<p>Zip<input type="text" class="form-control" placeholder=""></p>
+												<p>Home Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Work Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Ext<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-5" role="tabpanel">
+												<h4 class="tab-title">Insurance</h4>
+												<h5>Primary Insurance</h5>
+												<p>Insurance Name<input type="text" class="form-control" placeholder=""></p>
+												<p>ID #<input type="text" class="form-control" placeholder=""></p>
+												<p>GP #<input type="text" class="form-control" placeholder=""></p>
+												<p>EFF<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>EXP<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<h5>Secondary Insurance</h5>
+												<p>Insurance Name<input type="text" class="form-control" placeholder=""></p>
+												<p>ID #<input type="text" class="form-control" placeholder=""></p>
+												<p>GP #<input type="text" class="form-control" placeholder=""></p>
+												<p>EFF<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>EXP<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<h5>Tertiary insurance</h5>
+												<p>Insurance Name<input type="text" class="form-control" placeholder=""></p>
+												<p>ID #<input type="text" class="form-control" placeholder=""></p>
+												<p>GP #<input type="text" class="form-control" placeholder=""></p>
+												<p>EFF<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>EXP<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+											</div>
+											<div class="tab-pane" id="tab-6" role="tabpanel">
+												<h4 class="tab-title">H&P</h4>
+												<p>History of Present Illness<textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<p>Past Medical History<textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<p>Orientation<input type="text" class="form-control" placeholder=""></p>
+												<p>Concentration<input type="text" class="form-control" placeholder=""></p>
+												<p>Memory<input type="text" class="form-control" placeholder=""></p>
+												<p>Language<input type="text" class="form-control" placeholder=""></p>
+												<p>Musculoskeletal<textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<p>Impression and Plan<textarea class="form-control" rows="2" placeholder=""></textarea></p>
+											</div>
+											<div class="tab-pane" id="tab-7" role="tabpanel">
+												<h4 class="tab-title">Physical Therapy</h4>
+												<h5>Assessment and Plan IP</h5>
+												<p>Impairments<input type="text" class="form-control" placeholder=""></p>
+												<p>Treating Diagnosis<input type="text" class="form-control" placeholder=""></p>
+												<p>Rehab Potential<input type="text" class="form-control" placeholder=""></p>
+												<p>Assessment/Rationale for Skilled PT<textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<p>Disposition Recommendations<input type="text" class="form-control" placeholder=""></p>
+												<h5>History</h5>
+												<p>Medical Diagnosis<input type="text" class="form-control" placeholder=""></p>
+												<p>Onset Date<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Patient Precautions<input type="text" class="form-control" placeholder=""></p>
+												<h5>Weight Bearing Precautions</h5>
+												<p>Left UE<input type="text" class="form-control" placeholder=""></p>
+												<p>Right UE<input type="text" class="form-control" placeholder=""></p>
+												<p>Left LE<input type="text" class="form-control" placeholder=""></p>
+												<p>Right LE<input type="text" class="form-control" placeholder=""></p>
+												<h5>Prior Level of Function</h5>
+												<p>Transfers<input type="text" class="form-control" placeholder=""></p>
+												<p>Bed Mobility<input type="text" class="form-control" placeholder=""></p>
+												<p>ADL's<input type="text" class="form-control" placeholder=""></p>
+												<p>Ambulation<input type="text" class="form-control" placeholder=""></p>
+												<p>Comment<input type="text" class="form-control" placeholder=""></p>
+												<h5>Sensory Systems</h5>
+												<p>Auditory<input type="text" class="form-control" placeholder=""></p>
+												<p>Vision<input type="text" class="form-control" placeholder=""></p>
+												<h5>Home environment</h5>
+												<p>Living Situation 1<input type="text" class="form-control" placeholder=""></p>
+												<p>Support System 1<input type="text" class="form-control" placeholder=""></p>
+												<p>Residence 1<input type="text" class="form-control" placeholder=""></p>
+												<p>Residence 1 Levels<input type="text" class="form-control" placeholder=""></p>
+												<p>Comment<input type="text" class="form-control" placeholder=""></p>
+												<h5>Cognition</h5>
+												<p>Level of Consciousness<input type="text" class="form-control" placeholder=""></p>
+												<p>Orientation<input type="text" class="form-control" placeholder=""></p>
+												<h5>Mobility Level</h5>
+												<p>Supine to Sit<input type="text" class="form-control" placeholder=""></p>
+												<p>Comment<input type="text" class="form-control" placeholder=""></p>
+												<p>Sit to Stand<input type="text" class="form-control" placeholder=""></p>
+												<p>Stand to Sit<input type="text" class="form-control" placeholder=""></p>
+												<p>Bed to Chair<input type="text" class="form-control" placeholder=""></p>
+												<p>Comment<input type="text" class="form-control" placeholder=""></p>
+												<h5>Gait Assessment</h5>
+												<p>Comments<input type="text" class="form-control" placeholder=""></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="patientinfo" role="tabpanel">
+								<div class="card">
+									<div class="tab tab-primary">
+										<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item"><a class="nav-link active" href="#tab-8" data-bs-toggle="tab" role="tab">Admission Info</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-9" data-bs-toggle="tab" role="tab">Doctor Info</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-10" data-bs-toggle="tab" role="tab">Patient Info</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-11" data-bs-toggle="tab" role="tab">Admitting Diagnosis</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-12" data-bs-toggle="tab" role="tab">Guarantor Info</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-13" data-bs-toggle="tab" role="tab">Nearest Relative Info</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-14" data-bs-toggle="tab" role="tab">Insurance Info</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-15" data-bs-toggle="tab" role="tab">Documents</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-16" data-bs-toggle="tab" role="tab">Accident Info</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-17" data-bs-toggle="tab" role="tab">Comments</a></li>
+										</ul>
+										
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab-8" role="tabpanel">
+												<h4 class="tab-title">Admission Information</h4>
+												<p>Creation Date/Time<input type="text" class="form-control" placeholder="MM/DD/YYYY  HH:MM"></p>
+												<p>Registartion Created By<input type="text" class="form-control" placeholder=""></p>
+												<p>Facility<input type="text" class="form-control" placeholder=""></p>
+												<p>Clinic<input type="text" class="form-control" placeholder=""></p>
+												<p>Arrive Date/Time<input type="text" class="form-control" placeholder="MM/DD/YYYY  HH:MM"></p>
+												<p>Nurse Station<input type="text" class="form-control" placeholder=""></p>
+												<p>Room<input type="text" class="form-control" placeholder=""></p>
+												<p>Bed<input type="text" class="form-control" placeholder=""></p>
+												<p>Accomodation<input type="text" class="form-control" placeholder=""></p>
+												<p>Admit Source<input type="text" class="form-control" placeholder=""></p>
+												<p>Admit Priority<input type="text" class="form-control" placeholder=""></p>
+												<p>Admit Procedure<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Previous Name<input type="text" class="form-control" placeholder=""></p>
+												<p>MRN<input type="text" class="form-control" placeholder=""></p>
+												<p>Acct #<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient Type<input type="text" class="form-control" placeholder=""></p>
+												<p>SSN<input type="text" class="form-control" placeholder=""></p>
+												<p>FC<input type="text" class="form-control" placeholder=""></p>
+												<p>Age<input type="text" class="form-control" placeholder=""></p>
+												<p>Sex<input type="text" class="form-control" placeholder=""></p>
+												<p>DNA<input type="text" class="form-control" placeholder=""></p>
+												<p>Date of Birth<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Race<input type="text" class="form-control" placeholder=""></p>
+												<p>Language<input type="text" class="form-control" placeholder=""></p>
+												<p>Interpreter Req<input type="text" class="form-control" placeholder=""></p>
+												<p>Expected Arrival Date/Time<input type="text" class="form-control" placeholder="MM/DD/YYYY  HH:MM"></p>
+												<p>Reg Date/Time<input type="text" class="form-control" placeholder="MM/DD/YYYY  HH:MM"></p>
+												<p>Hosp Srvc<input type="text" class="form-control" placeholder=""></p>
+												<p>ISOL<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-9" role="tabpanel">
+												<h4 class="tab-title">Doctor Information</h4>
+												<p>Admitting MD<input type="text" class="form-control" placeholder=""></p>
+												<p>Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Fax<input type="text" class="form-control" placeholder=""></p>
+												<p>Address<input type="text" class="form-control" placeholder=""></p>
+												<p>Attending MD<input type="text" class="form-control" placeholder=""></p>
+												<p>Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Fax<input type="text" class="form-control" placeholder=""></p>
+												<p>Address<input type="text" class="form-control" placeholder=""></p>
+												<p>Primary Care MD<input type="text" class="form-control" placeholder=""></p>
+												<p>Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Fax<input type="text" class="form-control" placeholder=""></p>
+												<p>Address<input type="text" class="form-control" placeholder=""></p>
+												<p>Referring MD<input type="text" class="form-control" placeholder=""></p>
+												<p>Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Fax<input type="text" class="form-control" placeholder=""></p>
+												<p>Address<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-10" role="tabpanel">
+												<h4 class="tab-title">Patient Information</h4>
+												<p>Address Line 1<input type="text" class="form-control" placeholder=""></p>
+												<p>Address Line 2<input type="text" class="form-control" placeholder=""></p>
+												<p>City<input type="text" class="form-control" placeholder=""></p>
+												<p>County<input type="text" class="form-control" placeholder=""></p>
+												<p>Zip<input type="text" class="form-control" placeholder=""></p>
+												<p>ST<input type="text" class="form-control" placeholder=""></p>
+												<p>Country<input type="text" class="form-control" placeholder=""></p>
+												<p>Employer Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Employment Status<input type="text" class="form-control" placeholder=""></p>
+												<p>Work Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Home Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Religion<input type="text" class="form-control" placeholder=""></p>
+												<p>Church<input type="text" class="form-control" placeholder=""></p>
+												<p>Martial Status<input type="text" class="form-control" placeholder=""></p>
+												<p>Mother's Maiden Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Mother's Med Rec Nbr<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-11" role="tabpanel">
+												<h4 class="tab-title">Admitting Diagnosis</h4>
+												<p>Diagnosis Code<input type="text" class="form-control" placeholder=""></p>
+												<p>Chief Complaint<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-12" role="tabpanel">
+												<h4 class="tab-title">Guarantor Information</h4>
+												<p>Name<input type="text" class="form-control" placeholder=""></p>
+												<p>SSN<input type="text" class="form-control" placeholder=""></p>
+												<p>Relation<input type="text" class="form-control" placeholder=""></p>
+												<p>Date of Birth<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Home Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Addr Line 1<input type="text" class="form-control" placeholder=""></p>
+												<p>Addr Line 2<input type="text" class="form-control" placeholder=""></p>
+												<p>City<input type="text" class="form-control" placeholder=""></p>
+												<p>ST<input type="text" class="form-control" placeholder=""></p>
+												<p>Zip<input type="text" class="form-control" placeholder=""></p>
+												<p>Country<input type="text" class="form-control" placeholder=""></p>
+												<p>Empl Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Empl Addr Line 1<input type="text" class="form-control" placeholder=""></p>
+												<p>Empl Addr Line 2<input type="text" class="form-control" placeholder=""></p>
+												<p>Empl City<input type="text" class="form-control" placeholder=""></p>
+												<p>ST<input type="text" class="form-control" placeholder=""></p>
+												<p>Zip<input type="text" class="form-control" placeholder=""></p>
+												<p>Empl Country<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-13" role="tabpanel">
+												<h4 class="tab-title">Nearest Relative information</h4>
+												<p>Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Relation<input type="text" class="form-control" placeholder=""></p>
+												<p>Address<input type="text" class="form-control" placeholder=""></p>
+												<p>City<input type="text" class="form-control" placeholder=""></p>
+												<p>ST<input type="text" class="form-control" placeholder=""></p>
+												<p>Zip<input type="text" class="form-control" placeholder=""></p>
+												<p>Home Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Work Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Ext<input type="text" class="form-control" placeholder=""></p>
+												<p>Add Contact<input type="text" class="form-control" placeholder=""></p>
+												<p>Relation<input type="text" class="form-control" placeholder=""></p>
+												<p>Address<input type="text" class="form-control" placeholder=""></p>
+												<p>City<input type="text" class="form-control" placeholder=""></p>
+												<p>ST<input type="text" class="form-control" placeholder=""></p>
+												<p>Zip<input type="text" class="form-control" placeholder=""></p>
+												<p>Home Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Work Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Ext<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-14" role="tabpanel">
+												<h4 class="tab-title">Insurance Information</h4>
+												<p>Primary Insurance<input type="text" class="form-control" placeholder=""></p>
+												<p>Verify Indicator<input type="text" class="form-control" placeholder=""></p>
+												<p>Insurance Name<input type="text" class="form-control" placeholder=""></p>
+												<p>ID #<input type="text" class="form-control" placeholder=""></p>
+												<p>GP #<input type="text" class="form-control" placeholder=""></p>
+												<p>EFF<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>EXP<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Member<input type="text" class="form-control" placeholder=""></p>
+												<p>Relationship<input type="text" class="form-control" placeholder=""></p>
+												<p>Empl Status<input type="text" class="form-control" placeholder=""></p>
+												<p>Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Ext<input type="text" class="form-control" placeholder=""></p>
+												<p>Address<input type="text" class="form-control" placeholder=""></p>
+												<p>City<input type="text" class="form-control" placeholder=""></p>
+												<p>ST<input type="text" class="form-control" placeholder=""></p>
+												<p>Zip<input type="text" class="form-control" placeholder=""></p>
+												<p>Auth #<input type="text" class="form-control" placeholder=""></p>
+												<p>Auth Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Days<input type="text" class="form-control" placeholder=""></p>
+												<p>Auth Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Secondary Insurance<input type="text" class="form-control" placeholder=""></p>
+												<p>Verify Indicator<input type="text" class="form-control" placeholder=""></p>
+												<p>Insurance Name<input type="text" class="form-control" placeholder=""></p>
+												<p>ID #<input type="text" class="form-control" placeholder=""></p>
+												<p>GP #<input type="text" class="form-control" placeholder=""></p>
+												<p>EFF<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>EXP<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Member<input type="text" class="form-control" placeholder=""></p>
+												<p>Relationship<input type="text" class="form-control" placeholder=""></p>
+												<p>Empl Status<input type="text" class="form-control" placeholder=""></p>
+												<p>Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Ext<input type="text" class="form-control" placeholder=""></p>
+												<p>Address<input type="text" class="form-control" placeholder=""></p>
+												<p>City<input type="text" class="form-control" placeholder=""></p>
+												<p>ST<input type="text" class="form-control" placeholder=""></p>
+												<p>Zip<input type="text" class="form-control" placeholder=""></p>
+												<p>Auth #<input type="text" class="form-control" placeholder=""></p>
+												<p>Auth Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Days<input type="text" class="form-control" placeholder=""></p>
+												<p>Auth Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Tertiary Insurance<input type="text" class="form-control" placeholder=""></p>
+												<p>Verify Indicator<input type="text" class="form-control" placeholder=""></p>
+												<p>Insurance Name<input type="text" class="form-control" placeholder=""></p>
+												<p>ID #<input type="text" class="form-control" placeholder=""></p>
+												<p>GP #<input type="text" class="form-control" placeholder=""></p>
+												<p>EFF<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>EXP<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Member<input type="text" class="form-control" placeholder=""></p>
+												<p>Relationship<input type="text" class="form-control" placeholder=""></p>
+												<p>Empl Status<input type="text" class="form-control" placeholder=""></p>
+												<p>Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+												<p>Ext<input type="text" class="form-control" placeholder=""></p>
+												<p>Address<input type="text" class="form-control" placeholder=""></p>
+												<p>City<input type="text" class="form-control" placeholder=""></p>
+												<p>ST<input type="text" class="form-control" placeholder=""></p>
+												<p>Zip<input type="text" class="form-control" placeholder=""></p>
+												<p>Auth #<input type="text" class="form-control" placeholder=""></p>
+												<p>Auth Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Days<input type="text" class="form-control" placeholder=""></p>
+												<p>Auth Phone<input type="text" class="form-control" placeholder="(XXX) XXX - XXXX"></p>
+											</div>
+											<div class="tab-pane" id="tab-15" role="tabpanel">
+												<h4 class="tab-title">Documents</h4>
+												<p>Does the patient have an Advanced Directive?<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-16" role="tabpanel">
+												<h4 class="tab-title">Accident Information</h4>
+												<p>Type of Accident<input type="text" class="form-control" placeholder=""></p>
+												<p>Accident Date/Time<input type="text" class="form-control" placeholder="MM/DD/YYYY  HH:MM"></p>
+												<p>Mode of Arrival<input type="text" class="form-control" placeholder=""></p>
+											</div>
+											<div class="tab-pane" id="tab-17" role="tabpanel">
+												<h4 class="tab-title">Comments</h4>
+												<p><textarea class="form-control" rows="5" placeholder=""></textarea></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane fade" id="hp" role="tabpanel">
+								<div class="card">
+									<div class="tab tab-primary">
+										<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item"><a class="nav-link active" href="#tab-18" data-bs-toggle="tab" role="tab">H&P</a></li>
+										</ul>
+										
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab-18" role="tabpanel">
+												<h4 class="tab-title">H&P</h4>
+												<p>Document Type<input type="text" class="form-control" placeholder="Document Type"></p>
+												<p>Document Subject<input type="text" class="form-control" placeholder="Document Subject"></p>
+												<p>Performed By<input type="text" class="form-control" placeholder="Performed By"></p>
+												<p>Encounter Info<input type="text" class="form-control" placeholder="Encounter Info"></p>
+												<p>Patient<input type="text" class="form-control" placeholder="Patient"></p>
+												<p>Age<input type="text" class="form-control" placeholder="Age"></p>
+												<p>Sex<input type="text" class="form-control" placeholder="Sex"></p>
+												<p>DOB<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Associated diagnoses<input type="text" class="form-control" placeholder="Associated diagnoses"></p>
+												<p>MRN<input type="text" class="form-control" placeholder="MRN"></p>
+												<p>FIN<input type="text" class="form-control" placeholder="FIN"></p>
+												<p>Author<input type="text" class="form-control" placeholder="Author"></p>
+												<h4>Chief Complaint</h4>
+												<P><input type="text" class="form-control" placeholder="Chief Complaint"></P>
+												<h4>History of Present Illness</h4>
+												<textarea class="form-control" rows="2" placeholder="History of Present Illness"></textarea></p>
+												<h4>Histories</h4>
+												<p>Home Medications<input type="text" class="form-control" placeholder="Home Medications"></p>
+												<p>Allergies<input type="text" class="form-control" placeholder=""></p>
+												<p>Past Medical History<textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Review of Systems</h4>
+												<p><input type="text" class="form-control" placeholder=""></p>
+												<h4>Physical Examination</h4>
+												<p>Vital Signs (most recent and range for last 24 hours)<input type="text" class="form-control" placeholder=""></p>
+												<p>Neurologic (most recent and range for last 24 hours)<input type="text" class="form-control" placeholder=""></p>
+												<p>Eye<input type="text" class="form-control" placeholder=""></p>
+												<p>HENT<input type="text" class="form-control" placeholder=""></p>
+												<p>Neck<input type="text" class="form-control" placeholder=""></p>
+												<p>Respiratory<input type="text" class="form-control" placeholder=""></p>
+												<p>Cardiovascular<input type="text" class="form-control" placeholder=""></p>
+												<p>Gastrointestinal<input type="text" class="form-control" placeholder=""></p>
+												<p>Neurologic<input type="text" class="form-control" placeholder=""></p>
+												<p>General<input type="text" class="form-control" placeholder=""></p>
+												<p>Orientation<input type="text" class="form-control" placeholder=""></p>
+												<p>Concentration<input type="text" class="form-control" placeholder=""></p>
+												<p>Memory<input type="text" class="form-control" placeholder=""></p>
+												<p>Language<input type="text" class="form-control" placeholder=""></p>
+												<p>Psychiatric<input type="text" class="form-control" placeholder=""></p>
+												<p>Musculoskeletal<input type="text" class="form-control" placeholder=""></p>
+												<h4>Results Review</h4>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;">Lab</th>
+																		<th style="width:25%">Date</th>
+																		<th class="d-none d-md-table-cell" style="width:25%">Results</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Albumin</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Alkaline Phosphate</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>ALT</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Ammonia</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>AST</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>BNP</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>BUN</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Ca</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Cl</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>CO2</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Cr</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>CRP</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>ESR</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Glucose</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>HbA1c</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Hct</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Hgb</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>K+</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Magnesium</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Na</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Phosphorus</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Platelets</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>PT/INR</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>PTT</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>RBC</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Total Bilirubin</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Total Protein</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>TSH</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>WBC</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Other Lab/Result</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												<h4>Radiology Results</h4>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Impression and Plan</h4>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Signature Line</h4>
+												<p><input type="text" class="form-control" placeholder=""></p>
+												
+
+											</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="tab-pane fade" id="physical" role="tabpanel">
+								<div class="card">
+									<div class="tab tab-primary">
+										<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item"><a class="nav-link active" href="#tab-19" data-bs-toggle="tab" role="tab">PT Evaluation</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-20" data-bs-toggle="tab" role="tab">PT Treatment</a></li>
+										</ul>
+										
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab-19" role="tabpanel">
+												<h4 class="tab-title">Physical Therapy Evaluation</h4>
+												<p>Document Type<input type="text" class="form-control" placeholder="Document Type"></p>
+												<p>Document Subject<input type="text" class="form-control" placeholder="Document Subject"></p>
+												<p>Performed By<input type="text" class="form-control" placeholder="Performed By"></p>
+												<p>Encounter Info<input type="text" class="form-control" placeholder="Encounter Info"></p>
+												<p>PT Eval IP Entered On<input type="text" class="form-control" placeholder="MM/DD/YYYY  HH:MM"></p>
+												<p>Performed On<input type="text" class="form-control" placeholder=""></p>
+												<h4>Assessment and Plan IP</h4>
+												<p>Impairments<input type="text" class="form-control" placeholder="Impairments"></p>
+												<p>Treating Diagnosis<input type="text" class="form-control" placeholder="Treating Diagnosis"></p>
+												<p>Rehab Potential<input type="text" class="form-control" placeholder="Rehab Potential"></p>
+												<p>Assessment/Rationale for Skilled PT<textarea class="form-control" rows="2" placeholder="Assessment/Rationale for Skilled PT"></textarea></p>
+												<p>Disposition Recommendations<input type="text" class="form-control" placeholder="Disposition Recommendations"></p>
+												<p>Frequency<input type="text" class="form-control" placeholder=""></p>
+												<p>Duration<input type="text" class="form-control" placeholder=""></p>
+												<p>Duration Unit<input type="text" class="form-control" placeholder=""></p>
+												<p>Therapeutic Procedures Interventions Planned<input type="text" class="form-control" placeholder=""></p>
+												<p>Pt/Caregiver Involved in Goal Setting & Tx Plan<input type="text" class="form-control" placeholder=""></p>
+												<h4>History</h4>
+												<p>Preferred Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Referring Physician<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient Location<input type="text" class="form-control" placeholder=""></p>
+												<p>Medical Diagnosis<input type="text" class="form-control" placeholder="Medical Diagnosis"></p>
+												<p>Onset Date<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Patient Precautions<input type="text" class="form-control" placeholder="Patient Precautions"></p>
+												<h5>Weight Bearing Precautions</h5>
+												<p>Left UE<input type="text" class="form-control" placeholder="Left UE"></p>
+												<p>Right UE<input type="text" class="form-control" placeholder="Right UE"></p>
+												<p>Left LE<input type="text" class="form-control" placeholder="Left LE"></p>
+												<p>Right LE<input type="text" class="form-control" placeholder="Right LE"></p>
+												<p>Pertinent Medical History/Hospital Course<input type="text" class="form-control" placeholder=""></p>
+												<p>Information Given By (Patient History)<input type="text" class="form-control" placeholder=""></p>
+												<h5>Prior Level of Function</h5>
+												<p>Transfers<input type="text" class="form-control" placeholder="Transfers"></p>
+												<p>Bed Mobility<input type="text" class="form-control" placeholder="Bed Mobility"></p>
+												<p>ADL's<input type="text" class="form-control" placeholder="ADL's"></p>
+												<p>Ambulation<input type="text" class="form-control" placeholder="Ambulation"></p>
+												<p>Comment<input type="text" class="form-control" placeholder="Comment"></p>
+												<p>Fall Comments<input type="text" class="form-control" placeholder=""></p>
+												<h5>Sensory Systems</h5>
+												<p>Auditory<input type="text" class="form-control" placeholder="Auditory"></p>
+												<p>Vision<input type="text" class="form-control" placeholder="Vision"></p>
+												<p>Subjective Information<input type="text" class="form-control" placeholder=""></p>
+												<h4>Home Equipment</h4>
+												<h5>Rehab Home Equipment</h5>
+												<p>Cane-Standard<input type="text" class="form-control" placeholder=""></p>
+												<h5>Orthotics</h5>
+												<p>Ankle-Foot Orthosis<input type="text" class="form-control" placeholder=""></p>
+												<h4>Home environment</h4>
+												<p>Living Situation 1<input type="text" class="form-control" placeholder="Living Situation 1"></p>
+												<p>Support System 1<input type="text" class="form-control" placeholder="Support System 1"></p>
+												<p>Residence 1<input type="text" class="form-control" placeholder="Residence 1"></p>
+												<p>Residence 1 Levels<input type="text" class="form-control" placeholder="Residence 1 Levels"></p>
+												<p>Comment<input type="text" class="form-control" placeholder="Comment"></p>
+												<h5>Stairs Residence 1</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;"></th>
+																		<th style="width:25%">Outside Stairs 1</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Number of Steps</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+												<h4>Cognition</h4>
+												<p>Level of Consciousness<input type="text" class="form-control" placeholder="Level of Consciousness"></p>
+												<p>Orientation<input type="text" class="form-control" placeholder="Orientation"></p>
+												<h4>Vital Signs</h4>
+												<p>Oxygen Delivery<input type="text" class="form-control" placeholder=""></p>
+												<h4>Skin Integrity</h4>
+												<p>Braden Score Review<input type="text" class="form-control" placeholder=""></p>
+												<h4>ROM</h4>
+												<h5>Range Of Motion Grid</h5>
+												<p>Left Lower Extremity<input type="text" class="form-control" placeholder=""></p>
+												<p>Right Lower Extremity<input type="text" class="form-control" placeholder=""></p>
+												<h4>Strength</h4>
+												<h5>Functional Strength</h5>
+												<p>Left Lower Extremity<input type="text" class="form-control" placeholder=""></p>
+												<p>Comment<input type="text" class="form-control" placeholder=""></p>
+												<p>Right Lower Extremity<input type="text" class="form-control" placeholder=""></p>
+												<h4>Tone/Motor</h4>
+												<p>Muscle Tone<input type="text" class="form-control" placeholder=""></p>
+												<h4>Mobility</h4>
+												<h5>Mobility Level</h5>
+												<p>Supine to Sit<input type="text" class="form-control" placeholder="Supine to Sit"></p>
+												<p>Comment<input type="text" class="form-control" placeholder="Comment"></p>
+												<p>Sit to Stand<input type="text" class="form-control" placeholder="Sit to Stand"></p>
+												<p>Stand to Sit<input type="text" class="form-control" placeholder="Stand to Sit"></p>
+												<p>Bed to Chair<input type="text" class="form-control" placeholder="Bed to Chair"></p>
+												<p>Comment<input type="text" class="form-control" placeholder="Comment"></p>
+												<h4>Balance</h4>
+												<h5>Static Balance</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;">Position</th>
+																		<th style="width:25%">Short Sitting</th>
+																		<th class="d-none d-md-table-cell" style="width:25%">Standing</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Grade</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+
+
+												<h5>Dynamic Balance</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;">Position</th>
+																		<th style="width:25%">Short Sitting</th>
+																		<th class="d-none d-md-table-cell" style="width:25%">Standing</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Grade</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+
+
+												<h4>Gait Assessment</h4>
+												<p>Comments<input type="text" class="form-control" placeholder="Comments"></p>
+												<h4>Treatment</h4>
+												<h5>Separate/Distinct Intervention Sequence</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;"></th>
+																		<th style="width:25%">PT Intervention 1</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Interventions</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+												
+
+												<h5>Saftey Measures</h5>
+												<p>Call Light Within Reach<input type="text" class="form-control" placeholder=""></p>
+												<p>Fall Alert Slippers On<input type="text" class="form-control" placeholder=""></p>
+												<p>Fall Monitor Alarms On<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient Left in Chair<input type="text" class="form-control" placeholder=""></p>
+												<h5>Activity Recommendations/Splint Schedule</h5>
+												<p>Pt Safe to Transfer w Nursing<input type="text" class="form-control" placeholder=""></p>
+												<p>Comment<input type="text" class="form-control" placeholder=""></p>
+												<h4>Goals Short Term</h4>
+												<p>Target Date<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<h5>Mobility Goals IP Short Term</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;"></th>
+																		<th style="width:25%"></th>
+																		<th class="d-none d-md-table-cell" style="width:25%"></th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Description</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Level</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Goal Status</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+
+
+
+
+												<h5>Gait Goals IP Short Term</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;"></th>
+																		<th style="width:25%"></th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Description</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Distance (ft)</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Surface</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Device</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Gait Pattern</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Level</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Goal Status</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+
+
+
+
+
+												<h4>Procedures</h4>
+												<p>Evaluation<input type="text" class="form-control" placeholder=""></p>
+												<h4>PT Statistics</h4>
+												<p>Statistics Inpatient<input type="text" class="form-control" placeholder=""></p>
+												<p>Eval Time<input type="text" class="form-control" placeholder=""></p>
+												<p>Total Time<input type="text" class="form-control" placeholder=""></p>
+												<p>PT Evaluation Complete<input type="text" class="form-control" placeholder=""></p>
+												<p>PT Onset Date<input type="text" class="form-control" placeholder=""></p>
+												<p>PT Physician Referral Date<input type="text" class="form-control" placeholder=""></p>
+												<p>PT Evaluation Date<input type="text" class="form-control" placeholder=""></p>
+												<p>PT Subsequent Plan of Care Date<input type="text" class="form-control" placeholder=""></p>
+												<h5>Problems(Active)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Diagnosis(Active)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Completed Action List</h4>	
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+											</div>
+											<div class="tab-pane active" id="tab-20" role="tabpanel">
+												<h4 class="tab-title">Physical Therapy Treatment</h4>
+												<p>Document Type<input type="text" class="form-control" placeholder="Document Type"></p>
+												<p>Document Subject<input type="text" class="form-control" placeholder="Document Subject"></p>
+												<p>Performed By<input type="text" class="form-control" placeholder="Performed By"></p>
+												<p>Encounter Info<input type="text" class="form-control" placeholder="Encounter Info"></p>
+												<p>PT Treatment Note IP Entered On<input type="text" class="form-control" placeholder="MM/DD/YYYY  HH:MM"></p>
+												<p>Performed On<input type="text" class="form-control" placeholder=""></p>
+												<h4>Assessment and Plan IP</h4>
+												<p>Impairments<input type="text" class="form-control" placeholder="Impairments"></p>
+												<p>Treating Diagnosis<input type="text" class="form-control" placeholder="Treating Diagnosis"></p>
+												<p>Assessment/Rationale for Skilled PT<textarea class="form-control" rows="2" placeholder="Assessment/Rationale for Skilled PT"></textarea></p>
+												<p>Disposition Recommendations<input type="text" class="form-control" placeholder="Disposition Recommendations"></p>
+												<h4>Treatment</h4>
+												<p>Charting For<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient Location<input type="text" class="form-control" placeholder=""></p>
+												<p>Subjective Information<input type="text" class="form-control" placeholder=""></p>
+												<p>Pain Reported<input type="text" class="form-control" placeholder=""></p>
+												<p>Therapeutic Activities<input type="text" class="form-control" placeholder=""></p>
+												<h5>Safety Measures</h5>
+												<p>Bed in Lowest Position<input type="text" class="form-control" placeholder=""></p>
+												<p>Bed Locked<input type="text" class="form-control" placeholder=""></p>
+												<p>Bed Brakes On<input type="text" class="form-control" placeholder=""></p>
+												<p>Call Light Within Reach<input type="text" class="form-control" placeholder=""></p>
+												<p>Fall Alert Slippers On<input type="text" class="form-control" placeholder=""></p>
+												<p>Fall Monitor Alarms On<input type="text" class="form-control" placeholder=""></p>
+												<p>Side Rails Up<input type="text" class="form-control" placeholder=""></p>
+												<h5>Activity Recommendations/Splint Schedule</h5>
+												<p>Pt Safe to Transfer w Nursing<input type="text" class="form-control" placeholder=""></p>
+												<p>Comment<input type="text" class="form-control" placeholder=""></p>
+												<h4>Cognition</h4>
+												<p>Level of Consciousness<input type="text" class="form-control" placeholder=""></p>
+												<p>Orientation<input type="text" class="form-control" placeholder=""></p>
+												<h4>Vital Signs</h4>
+												<p>Continuous Monitoring<input type="text" class="form-control" placeholder=""></p>
+												<p>Stable No Acute Distress<input type="text" class="form-control" placeholder=""></p>
+												<p>Oxygen Delivery<input type="text" class="form-control" placeholder=""></p>
+												<h4>Skin Integrity</h4>
+												<p>Braden Score Review<input type="text" class="form-control" placeholder=""></p>
+												<p>Skin Integrity/Edema Comments<input type="text" class="form-control" placeholder=""></p>
+												<h4>Therapeutic Activities</h4>
+												<h5>Ther Activity Functional Mobility</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;"></th>
+																		<th style="width:25%">Func Mobility #1</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Skilled Activity</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Assist</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+												<h4>Procedures</h4>
+												<p>Therapeutic Activity 15 Min<input type="text" class="form-control" placeholder=""></p>
+												<h4>Statistics</h4>
+												<p>Statistics Inpatient<input type="text" class="form-control" placeholder=""></p>
+												<p>Treatment Time<input type="text" class="form-control" placeholder=""></p>
+												<p>Total Time<input type="text" class="form-control" placeholder=""></p>
+												<p>PT Onset Date<input type="text" class="form-control" placeholder=""></p>
+												<p>PT Physician Referral Date<input type="text" class="form-control" placeholder=""></p>
+												<p>PT Evaluation Date<input type="text" class="form-control" placeholder=""></p>
+												<p>PT Subsequent Plan of Care Date<input type="text" class="form-control" placeholder=""></p>
+												<h5>Problems(Active)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Diagnosis(Active)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Completed Action List</h4>	
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane fade" id="occupational" role="tabpanel">
+								<div class="card">
+									<div class="tab tab-primary">
+										<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item"><a class="nav-link active" href="#tab-21" data-bs-toggle="tab" role="tab">OT Treatment</a></li>
+										</ul>
+										
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab-21" role="tabpanel">
+												<h4 class="tab-title">Occupational Therapy Treatment</h4>
+												<p>Document Type<input type="text" class="form-control" placeholder="Document Type"></p>
+												<p>Document Subject<input type="text" class="form-control" placeholder="Document Subject"></p>
+												<p>Performed By<input type="text" class="form-control" placeholder="Performed By"></p>
+												<p>Encounter Info<input type="text" class="form-control" placeholder="Encounter Info"></p>
+												<p>PT Eval IP Entered On<input type="text" class="form-control" placeholder="MM/DD/YYYY  HH:MM"></p>
+												<p>Performed On<input type="text" class="form-control" placeholder=""></p>
+												<h4>Assessment and Plan IP</h4>
+												<p>Patient Location<input type="text" class="form-control" placeholder=""></p>
+												<p>Charting For<input type="text" class="form-control" placeholder=""></p>
+												<p>Impairments/Limitations<input type="text" class="form-control" placeholder=""></p>
+												<p>Treating Diagnosis<input type="text" class="form-control" placeholder=""></p>
+												<p>Rehabilitation Potential<input type="text" class="form-control" placeholder=""></p>
+												<p>Barriers to Safe Discharge<input type="text" class="form-control" placeholder=""></p>
+												<p>Assessment Comments<textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Recommendations</h4>
+												<p>Disposition Recommendations<input type="text" class="form-control" placeholder=""></p>
+												<h4>History</h4>
+												<p>Preferred Name<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient Precautions<input type="text" class="form-control" placeholder=""></p>
+												<h5>Weight Bearing Precautions</h5>
+												<p>Left UE<input type="text" class="form-control" placeholder=""></p>
+												<p>Right UE<input type="text" class="form-control" placeholder=""></p>
+												<p>Left LE<input type="text" class="form-control" placeholder=""></p>
+												<p>Right LE<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient Medical History/Hospital Course<input type="text" class="form-control" placeholder=""></p>
+												<h4>Treatments</h4>
+												<h5>Separate/Distinct Intervention Seq OT</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;"></th>
+																		<th style="width:25%">OT Interventions Tx 1</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Interventions</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+												<p>Funct Mobility/Transfers/Wheelchair Use<input type="text" class="form-control" placeholder=""></p>
+												<h5>Activity Recommendations</h5>
+												<p>Patient appropriate for bedside ADLs<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient to be up in chair 2x/day<input type="text" class="form-control" placeholder=""></p>
+												<p>Recommended transfer with Assist of 2<input type="text" class="form-control" placeholder=""></p>
+												<p>Comment<input type="text" class="form-control" placeholder=""></p>
+												<h5>Safety Measures</h5>
+												<p>Bed in Lowest Position<input type="text" class="form-control" placeholder=""></p>
+												<p>Bed Locked/Low Position<input type="text" class="form-control" placeholder=""></p>
+												<p>Bed Brakes On<input type="text" class="form-control" placeholder=""></p>
+												<p>Call Light Within Reach<input type="text" class="form-control" placeholder=""></p>
+												<p>Cardiac Alarms On<input type="text" class="form-control" placeholder=""></p>
+												<p>Alarms On/Limits Set<input type="text" class="form-control" placeholder=""></p>
+												<p>Fall Alert Slippers On<input type="text" class="form-control" placeholder=""></p>
+												<p>Fall Monitor Alarms On<input type="text" class="form-control" placeholder=""></p>
+												<p>Parent or significant other at bedside<input type="text" class="form-control" placeholder=""></p>
+												<h4>Funct Mobility/Transfers/Wheelchair Use</h4>
+												<h5>Functional Mobility Tx</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;"></th>
+																		<th style="width:25%"></th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Action</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Description</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Level</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Qualifier</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+												<h5>Transfers Tx</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;"></th>
+																		<th style="width:25%"></th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Action</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Description #1</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Description #2</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Level</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Qualifier</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+												<h4>OT Education</h4>
+												<p>Individuals to be taught<input type="text" class="form-control" placeholder=""></p>
+												<p>Barriers to Learning<input type="text" class="form-control" placeholder=""></p>
+												<p>Caregiver Barriers to Learning<input type="text" class="form-control" placeholder=""></p>
+												<p>Readiness to Learn<input type="text" class="form-control" placeholder=""></p>
+												<p>Miscellaneous Topics<input type="text" class="form-control" placeholder=""></p>
+												<h4>Procedures</h4>
+												<p>Therapeutic Activites 15 Min<input type="text" class="form-control" placeholder=""></p>
+												<h4>Statistics</h4>
+												<p>Statistics Inpatient<input type="text" class="form-control" placeholder=""></p>
+												<p>Treatment Time<input type="text" class="form-control" placeholder=""></p>
+												<p>Total Time<input type="text" class="form-control" placeholder=""></p>
+												<p>OT Onset Date<input type="text" class="form-control" placeholder=""></p>
+												<p>OT Physician Referral Date<input type="text" class="form-control" placeholder=""></p>
+												<p>OT Evaluation Date<input type="text" class="form-control" placeholder=""></p>
+												<p>OT Subsequent Plan of Care Date<input type="text" class="form-control" placeholder=""></p>
+												<h5>Problems(Active)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Diagnosis(Active)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Completed Action List</h4>	
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane fade" id="speech" role="tabpanel">
+								<div class="card">
+									<div class="tab tab-primary">
+										<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item"><a class="nav-link active" href="#tab-22" data-bs-toggle="tab" role="tab">ST Evaluation</a></li>
+										</ul>
+										
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab-22" role="tabpanel">
+												<h4 class="tab-title">Speech Therapy Evaluation</h4>
+												<p>Document Type<input type="text" class="form-control" placeholder="Document Type"></p>
+												<p>Document Subject<input type="text" class="form-control" placeholder="Document Subject"></p>
+												<p>Performed By<input type="text" class="form-control" placeholder="Performed By"></p>
+												<p>Encounter Info<input type="text" class="form-control" placeholder="Encounter Info"></p>
+												<p>Clinical Swallow Entered On<input type="text" class="form-control" placeholder="MM/DD/YYYY  HH:MM"></p>
+												<p>Performed On<input type="text" class="form-control" placeholder=""></p>
+												<h4>Recommendations</h4>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Plan of Care</h4>
+												<p>Repeat Assessment<input type="text" class="form-control" placeholder=""></p>
+												<p>Frequency of Therapy<input type="text" class="form-control" placeholder=""></p>
+												<p>Duration<input type="text" class="form-control" placeholder=""></p>
+												<p>Re-Evaluation<input type="text" class="form-control" placeholder=""></p>
+												<p>Rehabilitation Potential<input type="text" class="form-control" placeholder=""></p>
+												<p>Strengths<input type="text" class="form-control" placeholder=""></p>
+												<p>Limitations<input type="text" class="form-control" placeholder=""></p>
+												<p>Discharge Needs<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient/Caregiver Involved in Gaol Setting<input type="text" class="form-control" placeholder=""></p>
+												<h4>Goals</h4>
+												<h5>Feeding/Dysphagia</h5>
+												<h1 class="h3 mb-3"></h1>
+
+											<div class="row">
+												<div class="col-12 col-xl-12">
+													<div class="card">
+														<table class="table">
+															<thead>
+																<tr>
+																	<th style="width:40%;">Start Date</th>
+																	<th style="width:25%"><input type="text" class="form-control" placeholder=""></th>
+																	<th class="d-none d-md-table-cell" style="width:25%"><input type="text" class="form-control" placeholder=""></th>
+																	<th>Actions</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>Action</td>
+																	<td><input type="text" class="form-control" placeholder=""></td>
+																	<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																	<td class="table-action">
+																		<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																		<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																	</td>
+																</tr>
+																<tr>
+																	<td>Volume</td>
+																	<td><input type="text" class="form-control" placeholder=""></td>
+																	<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																	<td class="table-action">
+																		<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																		<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																	</td>
+																</tr>
+																<tr>
+																	<td>Consistency</td>
+																	<td><input type="text" class="form-control" placeholder=""></td>
+																	<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																	<td class="table-action">
+																		<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																		<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																	</td>
+																</tr>
+																<tr>
+																	<td>Freq/Duration</td>
+																	<td><input type="text" class="form-control" placeholder=""></td>
+																	<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																	<td class="table-action">
+																		<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																		<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																	</td>
+																</tr>
+																<tr>
+																	<td>Strategy</td>
+																	<td><input type="text" class="form-control" placeholder=""></td>
+																	<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																	<td class="table-action">
+																		<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																		<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																	</td>
+																</tr>
+																<tr>
+																	<td>Functional Qualifier</td>
+																	<td><input type="text" class="form-control" placeholder=""></td>
+																	<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																	<td class="table-action">
+																		<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																		<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																	</td>
+																</tr>
+																<tr>
+																	<td>Gaol Status</td>
+																	<td><input type="text" class="form-control" placeholder=""></td>
+																	<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																	<td class="table-action">
+																		<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																		<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																	</td>
+																</tr>
+																<tr>
+																	<td></td>
+																	<td><input type="text" class="form-control" placeholder=""></td>
+																	<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																	<td class="table-action">
+																		<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																		<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+										<h4>Patient Information</h4>
+										<p>Treating Diagnosis<input type="text" class="form-control" placeholder=""></p>
+										<p>Referring Physician<input type="text" class="form-control" placeholder=""></p>
+										<p>Pain Reported<input type="text" class="form-control" placeholder=""></p>
+										<p>Diagnosis Summary Comments<textarea class="form-control" rows="2" placeholder=""></textarea></p>
+										<p>Patient Precautions<input type="text" class="form-control" placeholder=""></p>
+										<p>Pulmonary Status<input type="text" class="form-control" placeholder=""></p>
+										<h4>Skin Integrity</h4>
+										<p>Braden Score Review<input type="text" class="form-control" placeholder=""></p>
+										<h4>ST Education</h4>
+										<p>Individuals to be Taught<input type="text" class="form-control" placeholder=""></p>
+										<p>Preferred Learning Method LearnProfile<input type="text" class="form-control" placeholder=""></p>
+										<p>Barriers to Learning<input type="text" class="form-control" placeholder=""></p>
+										<p>Caregiver Barriers to Learning<input type="text" class="form-control" placeholder=""></p>
+										<p>Barriers Narrative<input type="text" class="form-control" placeholder=""></p>
+										<p>Readiness to Learn<input type="text" class="form-control" placeholder=""></p>
+										<p>PtEd-ST Disease Process<input type="text" class="form-control" placeholder=""></p>
+										<p>PtEd-ST Misc Topics<input type="text" class="form-control" placeholder=""></p>
+										<p>PtEd-ST Txs/Tests<textarea class="form-control" rows="2" placeholder=""></textarea></p>
+										<p>PtEd-ST Teaching Method<input type="text" class="form-control" placeholder=""></p>
+										<p>PtEd-ST Teaching Eval<input type="text" class="form-control" placeholder=""></p>
+										<p>PtEd-ST Teaching Evaluation Patient<input type="text" class="form-control" placeholder=""></p>
+										<h4>Procedures</h4>
+										<p>Eval OM/Feedings<input type="text" class="form-control" placeholder=""></p>
+										<h4>ST Statistics</h4>
+										<p>Statistics Inpatient<input type="text" class="form-control" placeholder=""></p>
+										<p>Total Time<input type="text" class="form-control" placeholder=""></p>
+										<p>SLP Plan, Goals Estab With Pt, Caregiver<input type="text" class="form-control" placeholder=""></p>
+										<h5>Problems(Active)</h5>
+										<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+										<h5>Diagnosis(Active)</h5>
+										<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+										<h4>Completed Action List</h4>	
+										<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane fade" id="progress" role="tabpanel">
+								<div class="card">
+									<div class="tab tab-primary">
+										<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item"><a class="nav-link active" href="#tab-23" data-bs-toggle="tab" role="tab">Neurosurgery Progress Note</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-24" data-bs-toggle="tab" role="tab">Progress Note</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-25" data-bs-toggle="tab" role="tab">Progress Note</a></li>
+										<li class="nav-item"><a class="nav-link" href="#tab-26" data-bs-toggle="tab" role="tab">Progress Note</a></li>
+										</ul>
+										
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab-23" role="tabpanel">
+												<h4 class="tab-title">Neurosurgery Progress Note</h4>
+												<p>Document Type<input type="text" class="form-control" placeholder=""></p>
+												<p>Document Subject<input type="text" class="form-control" placeholder=""></p>
+												<p>Performed By<input type="text" class="form-control" placeholder=""></p>
+												<p>Encounter Info<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient<input type="text" class="form-control" placeholder=""></p>
+												<p>Age<input type="text" class="form-control" placeholder=""></p>
+												<p>Sex<input type="text" class="form-control" placeholder=""></p>
+												<p>DOB<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Associated Diagnoses<input type="text" class="form-control" placeholder=""></p>
+												<p>MRN<input type="text" class="form-control" placeholder=""></p>
+												<p>FIN<input type="text" class="form-control" placeholder=""></p>
+												<p>Author<input type="text" class="form-control" placeholder=""></p>
+												<h4>Subjective</h4>
+												<p><input type="text" class="form-control" placeholder=""></p>
+												<h4>Objective</h4>
+												<h5>Active Scheduled Inpatient Medications</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>One-Time Medications Given</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Vital Signs (most recent and range for last 24 hours)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Neurologic (most recent and range for last 24 hours)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>I/O DETAILS</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Physical Examination</h4>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Results Review</h4>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;">Lab</th>
+																		<th style="width:25%">Date</th>
+																		<th class="d-none d-md-table-cell" style="width:25%">Results</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Albumin</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Alkaline Phosphate</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>ALT</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Ammonia</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>AST</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>BNP</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>BUN</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Ca</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Cl</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>CO2</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Cr</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>CRP</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>ESR</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Glucose</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>HbA1c</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Hct</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Hgb</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>K+</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Magnesium</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Na</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Phosphorus</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Platelets</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>PT/INR</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>PTT</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>RBC</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Total Bilirubin</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Total Protein</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>TSH</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>WBC</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Other Lab/Result</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+												<h4>Radiology Results</h4>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Impression and Plan</h4>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Signature Line</h4>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Completed Action List</h4>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+											</div>
+											<div class="tab-pane" id="tab-24" role="tabpanel">
+												<h4 class="tab-title">Progress Note</h4>
+												<p>Document Type<input type="text" class="form-control" placeholder=""></p>
+												<p>Document Subject<input type="text" class="form-control" placeholder=""></p>
+												<p>Performed By<input type="text" class="form-control" placeholder=""></p>
+												<p>Encounter Info<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient<input type="text" class="form-control" placeholder=""></p>
+												<p>Age<input type="text" class="form-control" placeholder=""></p>
+												<p>Sex<input type="text" class="form-control" placeholder=""></p>
+												<p>DOB<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Associated Diagnoses<input type="text" class="form-control" placeholder=""></p>
+												<p>MRN<input type="text" class="form-control" placeholder=""></p>
+												<p>FIN<input type="text" class="form-control" placeholder=""></p>
+												<p>Author<input type="text" class="form-control" placeholder=""></p>
+												<h4>Subjective</h4>
+												<p><input type="text" class="form-control" placeholder=""></p>
+												<h4>Objective</h4>
+												<h5>Active Scheduled Inpatient Medications</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>One-Time Medications Given</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+												<h5>PRN Medications</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Vital Signs (most recent and range for last 24 hours)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Neurologic (most recent and range for last 24 hours)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Physical Examination</h4>
+												<h5>Neurologic</h5>
+												<p><input type="text" class="form-control" placeholder=""></p>
+												<h5>Results Review</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;">Lab</th>
+																		<th style="width:25%">Date</th>
+																		<th class="d-none d-md-table-cell" style="width:25%">Results</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Albumin</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Alkaline Phosphate</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>ALT</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Ammonia</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>AST</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>BNP</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>BUN</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Ca</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Cl</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>CO2</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Cr</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>CRP</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>ESR</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Glucose</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>HbA1c</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Hct</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Hgb</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>K+</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Magnesium</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Na</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Phosphorus</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Platelets</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>PT/INR</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>PTT</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>RBC</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Total Bilirubin</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Total Protein</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>TSH</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>WBC</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Other Lab/Result</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													<h4>Impression and Plan</h4>
+													<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+													<h4>Signature Line</h4>
+													<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+													<h4>Completed Action List</h4>
+													<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+													</div>
+											</div>
+											<div class="tab-pane" id="tab-25" role="tabpanel">
+												<h4 class="tab-title">Progress Note</h4>
+												<p>Document Type<input type="text" class="form-control" placeholder=""></p>
+												<p>Document Subject<input type="text" class="form-control" placeholder=""></p>
+												<p>Performed By<input type="text" class="form-control" placeholder=""></p>
+												<p>Encounter Info<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient<input type="text" class="form-control" placeholder=""></p>
+												<p>Age<input type="text" class="form-control" placeholder=""></p>
+												<p>Sex<input type="text" class="form-control" placeholder=""></p>
+												<p>DOB<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Associated Diagnoses<input type="text" class="form-control" placeholder=""></p>
+												<p>MRN<input type="text" class="form-control" placeholder=""></p>
+												<p>FIN<input type="text" class="form-control" placeholder=""></p>
+												<p>Author<input type="text" class="form-control" placeholder=""></p>
+												<h4>Subjective</h4>
+												<p><input type="text" class="form-control" placeholder=""></p>
+												<h4>Objective</h4>
+												<h5>Active Scheduled Inpatient Medications</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>One-Time Medications Given</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+												<h5>PRN Medications</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Vital Signs (most recent and range for last 24 hours)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Neurologic (most recent and range for last 24 hours)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Physical Examination</h4>
+												<h5>Neurologic</h5>
+												<p><input type="text" class="form-control" placeholder=""></p>
+												<h5>Results Review</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;">Lab</th>
+																		<th style="width:25%">Date</th>
+																		<th class="d-none d-md-table-cell" style="width:25%">Results</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Albumin</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Alkaline Phosphate</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>ALT</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Ammonia</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>AST</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>BNP</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>BUN</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Ca</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Cl</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>CO2</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Cr</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>CRP</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>ESR</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Glucose</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>HbA1c</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Hct</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Hgb</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>K+</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Magnesium</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Na</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Phosphorus</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Platelets</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>PT/INR</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>PTT</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>RBC</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Total Bilirubin</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Total Protein</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>TSH</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>WBC</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Other Lab/Result</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													<h4>Impression and Plan</h4>
+													<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+													<h4>Signature Line</h4>
+													<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+													<h4>Completed Action List</h4>
+													<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+													</div>
+											</div>
+											<div class="tab-pane" id="tab-26" role="tabpanel">
+												<h4 class="tab-title">Progress Note</h4>
+												<p>Document Type<input type="text" class="form-control" placeholder=""></p>
+												<p>Document Subject<input type="text" class="form-control" placeholder=""></p>
+												<p>Performed By<input type="text" class="form-control" placeholder=""></p>
+												<p>Encounter Info<input type="text" class="form-control" placeholder=""></p>
+												<p>Patient<input type="text" class="form-control" placeholder=""></p>
+												<p>Age<input type="text" class="form-control" placeholder=""></p>
+												<p>Sex<input type="text" class="form-control" placeholder=""></p>
+												<p>DOB<input type="text" class="form-control" placeholder="MM/DD/YYYY"></p>
+												<p>Associated Diagnoses<input type="text" class="form-control" placeholder=""></p>
+												<p>MRN<input type="text" class="form-control" placeholder=""></p>
+												<p>FIN<input type="text" class="form-control" placeholder=""></p>
+												<p>Author<input type="text" class="form-control" placeholder=""></p>
+												<h4>Subjective</h4>
+												<p><input type="text" class="form-control" placeholder=""></p>
+												<h4>Objective</h4>
+												<h5>Active Scheduled Inpatient Medications</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>One-Time Medications Given</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+												<h5>PRN Medications</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Vital Signs (most recent and range for last 24 hours)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h5>Neurologic (most recent and range for last 24 hours)</h5>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+												<h4>Physical Examination</h4>
+												<h5>Neurologic</h5>
+												<p><input type="text" class="form-control" placeholder=""></p>
+												<h5>Results Review</h5>
+												<h1 class="h3 mb-3"></h1>
+
+												<div class="row">
+													<div class="col-12 col-xl-12">
+														<div class="card">
+															<table class="table">
+																<thead>
+																	<tr>
+																		<th style="width:40%;">Lab</th>
+																		<th style="width:25%">Date</th>
+																		<th class="d-none d-md-table-cell" style="width:25%">Results</th>
+																		<th>Actions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Albumin</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Alkaline Phosphate</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>ALT</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Ammonia</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>AST</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>BNP</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>BUN</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Ca</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Cl</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>CO2</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Cr</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>CRP</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>ESR</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Glucose</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>HbA1c</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Hct</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Hgb</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>K+</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Magnesium</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Na</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Phosphorus</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Platelets</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>PT/INR</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>PTT</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>RBC</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Total Bilirubin</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Total Protein</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>TSH</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>WBC</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Other Lab/Result</td>
+																		<td><input type="text" class="form-control" placeholder=""></td>
+																		<td class="d-none d-md-table-cell"><input type="text" class="form-control" placeholder=""></td>
+																		<td class="table-action">
+																			<a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+																			<a href="#"><i class="align-middle" data-feather="trash"></i></a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													<h4>Impression and Plan</h4>
+													<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+													<h4>Signature Line</h4>
+													<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+													<h4>Completed Action List</h4>
+													<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>	
+													</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane fade" id="nutrition" role="tabpanel">
+								<div class="card">
+									<div class="tab tab-primary">
+										<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item"><a class="nav-link active" href="#tab-27" data-bs-toggle="tab" role="tab">Nutrition Prescription Suggestion</a></li>
+										</ul>
+										
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab-27" role="tabpanel">
+												<h4 class="tab-title">Nutrition Prescription Suggestion</h4>
+												<p>Document Type<input type="text" class="form-control" placeholder=""></p>
+												<p>Document Subject<input type="text" class="form-control" placeholder=""></p>
+												<p>Performed By<input type="text" class="form-control" placeholder=""></p>
+												<p>Encounter Info<input type="text" class="form-control" placeholder=""></p>
+												<p>Nutrition Prescription Suggestions Entered On<input type="text" class="form-control" placeholder="MM/DD/YYYY  HH:MM"></p>
+												<p>Performed On<input type="text" class="form-control" placeholder=""></p>
+												<h4>Nutrition Prescription Suggestions</h4>
+												<p>Oral Suggestion(s)<input type="text" class="form-control" placeholder=""></p>
+												<p>Enteral Suggestion(s)<input type="text" class="form-control" placeholder=""></p>
+												<p>Malnutrition Diagnosis View<input type="text" class="form-control" placeholder=""></p>
+												<p>Comments<input type="text" class="form-control" placeholder=""></p>
+												<p>See Nutrition Tab in Results for Details<input type="text" class="form-control" placeholder=""></p>
+												<h4>Completed Action List</h4>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane fade" id="notes" role="tabpanel">
+								<div class="card">
+									<div class="tab tab-primary">
+										<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item"><a class="nav-link active" href="#tab-28" data-bs-toggle="tab" role="tab">Notes</a></li>
+										</ul>
+										
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab-28" role="tabpanel">
+												<h4 class="tab-title">Notes</h4>
+												<p><textarea class="form-control" rows="2" placeholder=""></textarea></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+					</div>	
+					</div>
+
+				</div>
+			</main>
+			{% include 'footer.html' %}
+		</div>
+	</div>
+	
+	<script src="{% static 'js/app.js' %}"></script>
+
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+				content.style.display = "none";
+				} else {
+				content.style.display = "block";
+				}
+			});
+		}
+
+	</script>
+
+</body>
+
+</html>

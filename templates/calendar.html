@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Bootstrap 5 Admin &amp; Dashboard Template">
+	<meta name="author" content="Bootlab">
+
+	<title>InManage - Inpatient Rehabilitation Management</title>
+
+	<link rel="canonical" href="https://appstack.bootlab.io/calendar.html" />
+	<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+	<link href="{% static 'css/light.css' %}" rel="stylesheet">
+</head>
+<!--
+  HOW TO USE: 
+  data-theme: default (default), dark, light
+  data-layout: fluid (default), boxed
+  data-sidebar-position: left (default), right
+  data-sidebar-behavior: sticky (default), fixed, compact
+-->
+
+<body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
+	<div class="wrapper">
+	{% include 'navbar.html' %}
+		<div class="main">
+			{% include 'header.html' %}			
+			<main class="content">
+				<div class="container-fluid p-0">
+
+					<h1 class="h3 mb-3">Calendar</h1>
+
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Patient Admission Calendar</h5>
+						</div>
+						<div class="card-body">
+							<div id="fullcalendar"></div>
+						</div>
+					</div>
+
+				</div>
+			</main>
+			{% include 'footer.html' %}
+		</div>
+	</div>
+
+	<script src="{% static 'js/app.js' %}"></script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var calendarEl = document.getElementById('fullcalendar');
+			var calendar = new FullCalendar.Calendar(calendarEl, {
+				themeSystem: 'bootstrap',
+				initialView: 'dayGridMonth',
+				initialDate: '2022-10-20',
+				headerToolbar: {
+					left: 'prev,next today',
+					center: 'title',
+					right: 'dayGridMonth,timeGridWeek,timeGridDay'
+				},
+				events: [
+				]
+			});
+			setTimeout(function() {
+				calendar.render();
+			}, 250)
+		});
+	</script>
+</body>
+
+</html>

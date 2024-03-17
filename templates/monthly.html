@@ -1,0 +1,345 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Bootstrap 5 Admin &amp; Dashboard Template">
+	<meta name="author" content="Bootlab">
+
+	<title>InManage - Inpatient Rehabilitation Management</title>
+
+	<link rel="canonical" href="https://appstack.bootlab.io/dashboard-default.html" />
+	<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+	<!-- Choose your prefered color scheme -->
+	<link href="{% static 'css/light.css' %}" rel="stylesheet">
+	<!-- <link href="css/dark.css" rel="stylesheet"> -->
+
+</head>
+
+<body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
+	<div class="wrapper">
+	{% include 'navbar.html' %}
+	<div class="main">
+		{% include 'header.html' %}
+		<main class="content">
+
+
+		<div class="row">
+			<div class="container-fluid p-0">
+				<div class="row">
+					<div class="col">
+						<div class="card flex-fill">
+							<div class="card-body">
+								<div class="row">
+									<div class="col mt-0">
+										<h4 class="card-title">CMS 60% Rule Requirement</h4>
+									</div>
+									<div class="col-auto">
+										<div class="stat stat-sm">
+											<i class="align-middle" data-feather="activity"></i>
+										</div>
+									</div>
+								</div>
+								<span class="h1 d-inline-block mt-1 mb-4">{{cms_percent}} %</span>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="flex-grow-1">
+						<div class="card flex-fill">
+							<div class="card-body">
+								<div class="row">
+									<div class="col mt-0">
+										<h4 class="card-title">Percentage of Patient Beds Full</h4>
+									</div>
+									<div class="col-auto">
+										<div class="stat stat-sm">
+											<i class="align-middle" data-feather="users"></i>
+										</div>
+									</div>
+								</div>
+								<span class="h1 d-inline-block mt-1 mb-4">{{bed_percent}} %</span>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+		
+			<div class="container-fluid p-0">
+				<div class="row">
+					<div class="col">
+						<div class="card">
+							<div class="card-header">
+								<h5 class="card-title">Patient Status Breakdown</h5>
+								<h6 class="card-subtitle text-muted">Breakdown of current status of patients</h6>
+							</div>
+						<div class="card-body text-center">
+							<div class="chart">
+								<div id="statusPIE" style="max-width: 340px;margin:auto;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Disposition Breakdown </h5>
+							<h6 class="card-subtitle text-muted">Breakdown of reasons for patient rejections</h6>
+						</div>
+						<div class="card-body text-center">
+							<div class="chart w-100">
+								<div id="RejectionDisposition" style="max-width: 440px;margin:auto;"></div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			<div class="container-fluid p-0">
+				<div class="card">
+					<div class="card-header">
+						<h4 class="card-title">Insurance Breakdown</h4>
+						<h6 class="card-subtitle text-muted"></h6>Breakdown of most used insurances</h6>
+					</div>
+					<div class="card-body text-center">
+						<div class="chart w-100">
+							<div id="InsurancePIE" style="max-width: 440px;margin:auto;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="card">
+				<div class="card-header">
+						<h5 class="card-title">Referral Hospital Breakdown</h5>
+						<h6 class="card-subtitle text-muted">Breakdown of local hospitals' patient referral</h6>
+					</div>
+					<div class="card-body">
+						<div class="card flex-fill">
+							<div id="apexcharts-bar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</main>
+		{% include 'footer.html' %}
+	</div>
+</div>
+
+	<script src="{% static 'js/app.js' %}"></script>
+
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	///////////////////// Bar chart Referral Hosptial Breakdown
+	var options = {
+	chart: {
+	height: 350,
+	type: "bar",
+	stacked: true,
+	},
+	plotOptions: {
+	bar: {
+	horizontal: true,
+	},
+	},
+	stroke: {
+	width: 1,
+	colors: ["#fff"]
+	},
+	series: [{
+	name: "Number of Rejections",
+	data: [{{hospitalIUr}}, {{FranEastr}}, {{FranCentralr}},{{other_refr}}]
+	}, {
+	name: "Number of Acceptances",
+	data: [{{hospitalIUa}}, {{FranEasta}}, {{FranCentrala}},{{other_refa}}]
+	},{
+	name: "Number of CMS 13 Pateints",
+	data: [{{hospitalIUc}},{{FranEastc}}, {{FranCentralc}},{{other_refc}}]
+	} ],
+	xaxis: {
+	categories: ['IU Health Arnett Hospital', 'Franciscan Health Lafayette East', 'Fransciscan Health Lafayette Central',"Other"],
+	labels: {
+	formatter: function(val) {
+	return val
+	}
+	}
+	},
+	yaxis: {
+	title: {
+	text: 'Hospital'
+	},
+	},
+	tooltip: {
+	y: {
+	formatter: function(val) {
+	return val
+	}
+	}
+	},
+	fill: {
+	opacity: 1
+	},
+	legend: {
+	position: "top",
+	horizontalAlign: "left",
+	offsetX: 40
+	}
+	}
+	var chart = new ApexCharts(
+	document.querySelector("#apexcharts-bar"),
+	options
+	);
+	chart.render();
+	});
+	document.addEventListener("DOMContentLoaded", function() {
+	////////////////////// Bar chart Referring Physician
+	var options = {
+	chart: {
+	height: 350,
+	type: "bar",
+	stacked: true,
+	},
+	plotOptions: {
+	bar: {
+	horizontal: true,
+	},
+	},
+	stroke: {
+	width: 1,
+	colors: ["#fff"]
+	},
+	series: [{
+	name: "Doctor 1",
+	data: [44, 55, 41, 37, 22, 43, 21]
+	}, {
+	name: "Doctor 2",
+	data: [12, 17, 11, 9, 15, 11, 20]
+	},{
+	name: "Doctor 3",
+	data: [53, 32, 33, 52, 13, 43, 32]
+	}, {
+	name: "Doctor 4",
+	data: [9, 7, 5, 8, 6, 9, 4]
+	}, ],
+	xaxis: {
+	categories: ['IU Health Arnett Hospital', 'IU Health Arnett', 'Franciscan Health Lafayette East', 'Fransciscan Health Lafayette Central'],
+	labels: {
+	formatter: function(val) {
+	return val
+	}
+	}
+	},
+	yaxis: {
+	title: {
+	text: undefined
+	},
+	},
+	tooltip: {
+	y: {
+	formatter: function(val) {
+	return val
+	}
+	}
+	},
+	fill: {
+	opacity: 1
+	},
+	legend: {
+	position: "top",
+	horizontalAlign: "left",
+	offsetX: 40
+	}
+	}
+	var chart = new ApexCharts(
+	document.querySelector("#ReferringPhysician-bar"),
+	options
+	);
+	chart.render();
+	});
+	</script>
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	// Pie chart
+	var options = {
+    chart: {
+    height: 650,
+    type: "pie",
+    },
+    dataLabels: {
+    enabled: true
+    },
+	labels: ["Anthem","United Healthcare","Medicaid","Blue Cross", "Other"],
+    series: [{{insur_anthem}},{{insur_UHC}},{{insur_medicaid}},{{insur_blue}},{{insur_other}}],
+    }
+    var chart = new ApexCharts(
+    document.querySelector("#InsurancePIE"),
+    options
+    );
+    chart.render();
+    });
+    </script>
+
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	// Pie chart
+	var options = {
+	chart: {
+	height: 350,
+	type: "pie",
+	},
+	dataLabels: {
+	enabled: false
+	},
+	Style: {
+	
+	},
+	labels: ["Accepted","Rejected","Pending"],
+	colors: ["#32CD32","#FF0000","#FFA500"],
+	series: [{{accepted}},{{rejected}},{{pending}}]
+	}
+	var chart = new ApexCharts(
+	document.querySelector("#statusPIE"),
+	options
+	);
+	chart.render();
+	});
+	</script>
+
+
+	<script>
+	/////////////////////// Disposition Pie Chart///////////////////
+	document.addEventListener("DOMContentLoaded", function() {
+		var options = {
+	chart: {
+	height: 650,
+	type: "donut",
+	},
+	dataLabels: {
+	enabled: true
+	},
+	labels:["Not CMS qalified","Insurance denial","Not qualified for inpatient","Other"],
+	series: [{{reason1}},{{reason2}},{{reason3}},{{reasonother}}]
+	}
+	var chart = new ApexCharts(
+	document.querySelector("#RejectionDisposition"),
+	options
+	);
+	chart.render();
+	});
+	</script>
+</a>
+
+</script>
+
+</body>
+
+
+
+
+</html>
