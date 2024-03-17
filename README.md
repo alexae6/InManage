@@ -11,7 +11,7 @@ username: test, password: password1234
 
 
 To use, must install:
-Django==4.1.6
-django-allauth==0.52.0
-django-crispy-forms==1.14.0
-django-embed-video
+- Django==4.1.6
+- django-allauth==0.52.0
+- django-crispy-forms==1.14.0
+- django-embed-video
