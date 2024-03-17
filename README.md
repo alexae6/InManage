@@ -1,5 +1,5 @@
-# InManage- Inpatient rehabilitation management system
-Purdue University Senior Design Project- _January 2022 to December 2022_
+# InManage- Inpatient Rehabilitation Management System
+Purdue University Biomedical Engineering Senior Design Project- _January 2022 to December 2022_
 
 This purpose of this project was to improve the referral decision process by creating a new EHR. It consists of 3 components:
 - OCR/NLP to parse through pateint health reports in pdf form
