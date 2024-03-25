@@ -6,7 +6,7 @@ This purpose of this project was to improve the referral decision process by cre
 - SQL database to store and query patient data
 - API using a Django webframe work to display the EHR
 
-To get the full project overview look at our Design History File: 
+To get the full project overview look at our Design History File: https://github.com/alexae6/InManage/blob/main/DesignHistoryFile.pdf
 
 Original Source Code can be found here: https://github.com/aleteavv/InManage/tree/main
 
